@@ -740,8 +740,8 @@ def run(cfg: dict = FIRM_CONFIG):
 
     # ── Write JSON ────────────────────────────────────────────────────────────
     print(f"\n[Building JSON...]\n")
-    build_json(cfg, raw_df, hc_rows, departures_df, tenure_df,
-               turnover_rows, promotions_df, promo_summary, out_file)
+    output = build_json(cfg, raw_df, hc_rows, departures_df, tenure_df,
+                        turnover_rows, promotions_df, promo_summary, out_file)
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n{'─'*60}")
@@ -761,6 +761,8 @@ def run(cfg: dict = FIRM_CONFIG):
             print(f"    {row['from_title']:>22} → {row['to_title']:<22} "
                   f"avg {row['avg_years_in_prior_role']} yrs  (n={row['n_observed']})")
     print(f"{'─'*60}\n")
+
+    return output
 
 
 if __name__ == "__main__":
