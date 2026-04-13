@@ -364,6 +364,246 @@ FIRMS = {
         "api_sources": [], "html_sources": [], "function_order": [],
     },
 
+    "abry-partners": {
+        "configured": False, "firm_name": "Abry Partners", "firm_slug": "abry-partners",
+        "hq": "Boston, MA", "fund_size": "~$3B", "focus": "Media / Telecom / Services",
+        "start_year": 2010, "output_file": "/tmp/abry-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "american-securities": {
+        "configured": False, "firm_name": "American Securities", "firm_slug": "american-securities",
+        "hq": "New York, NY", "fund_size": "~$5B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/american-securities_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "arsenal-capital-partners": {
+        "configured": False, "firm_name": "Arsenal Capital Partners", "firm_slug": "arsenal-capital-partners",
+        "hq": "New York, NY", "fund_size": "~$3B", "focus": "Healthcare / Industrials",
+        "start_year": 2010, "output_file": "/tmp/arsenal-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "berkshire-partners": {
+        "configured": False, "firm_name": "Berkshire Partners", "firm_slug": "berkshire-partners",
+        "hq": "Boston, MA", "fund_size": "~$5B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/berkshire-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "blue-point-capital-partners": {
+        "configured": False, "firm_name": "Blue Point Capital Partners", "firm_slug": "blue-point-capital-partners",
+        "hq": "Cleveland, OH", "fund_size": "~$1B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/blue-point-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "ci-capital-partners": {
+        "configured": False, "firm_name": "CI Capital Partners", "firm_slug": "ci-capital-partners",
+        "hq": "New York, NY", "fund_size": "~$1.5B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/ci-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "comvest-partners": {
+        "configured": False, "firm_name": "Comvest Partners", "firm_slug": "comvest-partners",
+        "hq": "West Palm Beach, FL", "fund_size": "~$2B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/comvest-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "excellere-partners": {
+        "configured": False, "firm_name": "Excellere Partners", "firm_slug": "excellere-partners",
+        "hq": "Denver, CO", "fund_size": "~$500M", "focus": "Healthcare / Business Services",
+        "start_year": 2010, "output_file": "/tmp/excellere-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "ffl-partners": {
+        "configured": False, "firm_name": "FFL Partners", "firm_slug": "ffl-partners",
+        "hq": "San Francisco, CA", "fund_size": "~$2B", "focus": "Healthcare / Financial Services",
+        "start_year": 2010, "output_file": "/tmp/ffl-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "frontenac-company": {
+        "configured": False, "firm_name": "Frontenac Company", "firm_slug": "frontenac-company",
+        "hq": "Chicago, IL", "fund_size": "~$1B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/frontenac-company_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "great-hill-partners": {
+        "configured": False, "firm_name": "Great Hill Partners", "firm_slug": "great-hill-partners",
+        "hq": "Boston, MA", "fund_size": "~$3B", "focus": "Technology / Services",
+        "start_year": 2010, "output_file": "/tmp/great-hill-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "hggc": {
+        "configured": False, "firm_name": "HGGC", "firm_slug": "hggc",
+        "hq": "Palo Alto, CA", "fund_size": "~$2B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/hggc_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "huron-capital-partners": {
+        "configured": False, "firm_name": "Huron Capital Partners", "firm_slug": "huron-capital-partners",
+        "hq": "Detroit, MI", "fund_size": "~$750M", "focus": "Services",
+        "start_year": 2010, "output_file": "/tmp/huron-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "incline-equity-partners": {
+        "configured": False, "firm_name": "Incline Equity Partners", "firm_slug": "incline-equity-partners",
+        "hq": "Pittsburgh, PA", "fund_size": "~$1.5B", "focus": "Industrials / Services",
+        "start_year": 2010, "output_file": "/tmp/incline-equity-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "jll-partners": {
+        "configured": False, "firm_name": "JLL Partners", "firm_slug": "jll-partners",
+        "hq": "New York, NY", "fund_size": "~$2B", "focus": "Healthcare",
+        "start_year": 2010, "output_file": "/tmp/jll-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "kelso-and-company": {
+        "configured": False, "firm_name": "Kelso & Company", "firm_slug": "kelso-and-company",
+        "hq": "New York, NY", "fund_size": "~$3B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/kelso-and-company_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "ksl-capital-partners": {
+        "configured": False, "firm_name": "KSL Capital Partners", "firm_slug": "ksl-capital-partners",
+        "hq": "Denver, CO", "fund_size": "~$4B", "focus": "Travel / Leisure",
+        "start_year": 2010, "output_file": "/tmp/ksl-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "leeds-equity-partners": {
+        "configured": False, "firm_name": "Leeds Equity Partners", "firm_slug": "leeds-equity-partners",
+        "hq": "New York, NY", "fund_size": "~$1.5B", "focus": "Education / Technology",
+        "start_year": 2010, "output_file": "/tmp/leeds-equity-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "llr-partners": {
+        "configured": False, "firm_name": "LLR Partners", "firm_slug": "llr-partners",
+        "hq": "Philadelphia, PA", "fund_size": "~$3B", "focus": "Technology / Healthcare",
+        "start_year": 2010, "output_file": "/tmp/llr-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "lovell-minnick-partners": {
+        "configured": False, "firm_name": "Lovell Minnick Partners", "firm_slug": "lovell-minnick-partners",
+        "hq": "Radnor, PA", "fund_size": "~$3B", "focus": "Financial Services",
+        "start_year": 2010, "output_file": "/tmp/lovell-minnick-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "monomoy-capital-partners": {
+        "configured": False, "firm_name": "Monomoy Capital Partners", "firm_slug": "monomoy-capital-partners",
+        "hq": "New York, NY", "fund_size": "~$1.5B", "focus": "Industrials",
+        "start_year": 2010, "output_file": "/tmp/monomoy-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "olympus-partners": {
+        "configured": False, "firm_name": "Olympus Partners", "firm_slug": "olympus-partners",
+        "hq": "Stamford, CT", "fund_size": "~$3B", "focus": "Services / Healthcare",
+        "start_year": 2010, "output_file": "/tmp/olympus-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "one-rock-capital-partners": {
+        "configured": False, "firm_name": "One Rock Capital Partners", "firm_slug": "one-rock-capital-partners",
+        "hq": "New York, NY", "fund_size": "~$4B", "focus": "Industrials",
+        "start_year": 2010, "output_file": "/tmp/one-rock-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "pamlico-capital": {
+        "configured": False, "firm_name": "Pamlico Capital", "firm_slug": "pamlico-capital",
+        "hq": "Charlotte, NC", "fund_size": "~$2B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/pamlico-capital_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "primus-capital": {
+        "configured": False, "firm_name": "Primus Capital", "firm_slug": "primus-capital",
+        "hq": "Cleveland, OH", "fund_size": "~$500M", "focus": "Healthcare",
+        "start_year": 2010, "output_file": "/tmp/primus-capital_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "sterling-partners": {
+        "configured": False, "firm_name": "Sterling Partners", "firm_slug": "sterling-partners",
+        "hq": "Chicago, IL", "fund_size": "~$1B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/sterling-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "sverica-capital-management": {
+        "configured": False, "firm_name": "Sverica Capital Management", "firm_slug": "sverica-capital-management",
+        "hq": "Boston, MA", "fund_size": "~$1B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/sverica-capital-management_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "towerbrook-capital-partners": {
+        "configured": False, "firm_name": "TowerBrook Capital Partners", "firm_slug": "towerbrook-capital-partners",
+        "hq": "New York, NY", "fund_size": "~$5B", "focus": "Diversified",
+        "start_year": 2010, "output_file": "/tmp/towerbrook-capital-partners_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "vistria-group": {
+        "configured": False, "firm_name": "The Vistria Group", "firm_slug": "vistria-group",
+        "hq": "Chicago, IL", "fund_size": "~$3B", "focus": "Diversified / Impact",
+        "start_year": 2010, "output_file": "/tmp/vistria-group_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
+    "wynnchurch-capital": {
+        "configured": False, "firm_name": "Wynnchurch Capital", "firm_slug": "wynnchurch-capital",
+        "hq": "Chicago, IL", "fund_size": "~$2.5B", "focus": "Industrials",
+        "start_year": 2010, "output_file": "/tmp/wynnchurch-capital_human_capital.json",
+        "coverage_note": "Pending configuration.",
+        "api_sources": [], "html_sources": [], "function_order": [],
+    },
+
 }
 
 
