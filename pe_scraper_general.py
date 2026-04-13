@@ -189,10 +189,119 @@ def extractor_option_value_slug(html: str, function_map: dict) -> list[dict]:
     return people
 
 
+def extractor_article_h3_paragraph(html: str, function_map: dict,
+                                   title_function_map: dict | None = None,
+                                   article_class: str = "half_article",
+                                   heading_class: str = "half_article-heading") -> list[dict]:
+    """
+    HGGC / flat-list sites (no function sections on page):
+      <article class="half_article epsilon">
+        <header class="half_article-heading">
+          <h3>Bryan Adams</h3>
+          <p>Senior Advisor</p>
+        </header>
+      </article>
+
+    Since function is not encoded in the HTML structure, it's inferred from
+    the title via title_function_map (regex patterns → function name).
+    function_map is ignored here (kept for API compatibility).
+    """
+    # Grab each article block
+    art_pattern = (
+        r'<article[^>]*class="[^"]*' + re.escape(article_class) + r'[^"]*"[^>]*>'
+        r'(.*?)</article>'
+    )
+    # Within each article, find the heading block
+    hdr_pattern = (
+        r'<header[^>]*class="[^"]*' + re.escape(heading_class) + r'[^"]*"[^>]*>'
+        r'.*?<h3[^>]*>\s*([^<]+?)\s*</h3>'
+        r'.*?<p[^>]*>\s*([^<]*?)\s*</p>'
+    )
+
+    people = []
+    for art_body in re.findall(art_pattern, html, re.DOTALL):
+        m = re.search(hdr_pattern, art_body, re.DOTALL)
+        if not m:
+            continue
+        raw_name  = m.group(1).strip()
+        raw_title = m.group(2).strip()
+        name = normalize_name(raw_name)
+        if not name or len(name) < 3:
+            continue
+        func = _infer_function_from_title(raw_title, title_function_map)
+        people.append({
+            "name":     name,
+            "title":    raw_title or None,
+            "function": func,
+            "tier":     "html",
+        })
+    return people
+
+
+def extractor_div_name_title(html: str, function_map: dict,
+                             title_function_map: dict | None = None,
+                             wrapper_class: str = "team-member",
+                             name_class: str = "team-member__name",
+                             title_class: str = "team-member__title") -> list[dict]:
+    """
+    Generic BEM-style team card:
+      <div class="team-member">
+        <h3 class="team-member__name">Jane Smith</h3>
+        <p class="team-member__title">Principal</p>
+      </div>
+
+    Covers Audax, LLR-style sites. Configurable class names via html_source.
+    function_map is ignored; function inferred from title_function_map.
+    """
+    card_pattern = (
+        r'<(?:div|article|li)[^>]*class="[^"]*' + re.escape(wrapper_class) + r'[^"]*"[^>]*>'
+        r'(.*?)</(?:div|article|li)>'
+    )
+    name_pat  = r'class="[^"]*' + re.escape(name_class)  + r'[^"]*"[^>]*>\s*([^<]+?)\s*<'
+    title_pat = r'class="[^"]*' + re.escape(title_class) + r'[^"]*"[^>]*>\s*([^<]*?)\s*<'
+
+    people = []
+    for block in re.findall(card_pattern, html, re.DOTALL):
+        nm = re.search(name_pat,  block, re.DOTALL)
+        tt = re.search(title_pat, block, re.DOTALL)
+        if not nm:
+            continue
+        raw_name  = nm.group(1).strip()
+        raw_title = tt.group(1).strip() if tt else ""
+        name = normalize_name(raw_name)
+        if not name or len(name) < 3:
+            continue
+        func = _infer_function_from_title(raw_title, title_function_map)
+        people.append({
+            "name":     name,
+            "title":    raw_title or None,
+            "function": func,
+            "tier":     "html",
+        })
+    return people
+
+
+def _infer_function_from_title(title: str, title_function_map: dict | None) -> str:
+    """
+    Given a title string and a {regex_pattern: function_name} map,
+    return the first matching function name, or 'Other' if no match.
+    Comparison is case-insensitive.
+    """
+    if not title_function_map or not title:
+        return "Other"
+    t = title.lower()
+    for pattern, func in title_function_map.items():
+        if re.search(pattern, t, re.IGNORECASE):
+            return func
+    return "Other"
+
+
 # Registry — add new extractor functions here
 EXTRACTORS = {
-    "li_class_name_title":  extractor_li_class_name_title,
-    "option_value_slug":    extractor_option_value_slug,
+    "li_class_name_title":   extractor_li_class_name_title,
+    "option_value_slug":     extractor_option_value_slug,
+    "article_h3_paragraph":  extractor_article_h3_paragraph,
+    "div_name_title":        extractor_div_name_title,
 }
 
 
@@ -439,7 +548,22 @@ def extract_from_html(timestamp: str, original_url: str, html_source: dict) -> l
     if not extractor_fn:
         print(f"      ⚠ Unknown extractor: {html_source['extractor']}")
         return []
-    return extractor_fn(html, html_source["function_map"])
+
+    # Build kwargs — extractor receives function_map always, plus any extra
+    # config keys the new extractors accept (title_function_map, class overrides)
+    kwargs = {}
+    for key in ("title_function_map", "article_class", "heading_class",
+                "wrapper_class", "name_class", "title_class"):
+        if key in html_source:
+            kwargs[key] = html_source[key]
+
+    import inspect
+    sig = inspect.signature(extractor_fn)
+    # Only pass kwargs the function actually accepts
+    accepted = set(sig.parameters.keys())
+    filtered = {k: v for k, v in kwargs.items() if k in accepted}
+
+    return extractor_fn(html, html_source.get("function_map", {}), **filtered)
 
 
 # ─────────────────────────────────────────────────────────────────────────────

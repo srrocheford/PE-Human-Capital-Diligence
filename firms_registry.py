@@ -257,7 +257,7 @@ FIRMS = {
     },
 
     "audax-private-equity": {
-        "configured": False,
+        "configured": True,
         "firm_name":  "Audax Private Equity",
         "firm_slug":  "audax-private-equity",
         "hq":         "Boston, MA",
@@ -266,8 +266,35 @@ FIRMS = {
         "start_year": 2019,
         "domain":     "audaxprivateequity.com",
         "output_file": "/tmp/audax-private-equity_human_capital.json",
-        "coverage_note": "HTML team page at audaxprivateequity.com/team/ — 52 snapshots, 2019–2026. Good HTML coverage. Needs extractor config.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2019–2026 via audaxprivateequity.com/team/ (52 snapshots). "
+            "Function inferred from title — extractor class names may need tuning."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":    "audaxprivateequity.com/team/",
+                "extractor":   "div_name_title",
+                "function_map": {},
+                # Common PE firm BEM class patterns — update if extractor returns 0 people
+                "wrapper_class": "team-member",
+                "name_class":    "team-member__name",
+                "title_class":   "team-member__title",
+                "title_function_map": {
+                    r"operating partner":                          "Operating Resources",
+                    r"partner|managing director|md|co-founder|president|executive director": "Investment Team",
+                    r"vice president|vp|principal":                "Investment Team",
+                    r"associate|analyst|director":                 "Investment Team",
+                    r"finance|controller|accountant|cfo":          "Finance",
+                    r"operations|chief of staff|admin|assistant|receptionist|legal|compliance|counsel": "Support",
+                    r"senior advisor|advisor":                     "Executive Advisors",
+                },
+            }
+        ],
+        "function_order": [
+            "Investment Team", "Operating Resources", "Finance",
+            "Executive Advisors", "Support", "Other",
+        ],
     },
 
     "sentinel-capital-partners": {
@@ -482,12 +509,45 @@ FIRMS = {
     },
 
     "hggc": {
-        "configured": False, "firm_name": "HGGC", "firm_slug": "hggc",
-        "hq": "Palo Alto, CA", "fund_size": "~$2B", "focus": "Diversified",
-        "start_year": 2013, "domain": "hggc.com",
+        "configured": True,
+        "firm_name":  "HGGC",
+        "firm_slug":  "hggc",
+        "hq":         "Palo Alto, CA",
+        "fund_size":  "~$2B",
+        "focus":      "Diversified",
+        "start_year": 2013,
+        "domain":     "hggc.com",
         "output_file": "/tmp/hggc_human_capital.json",
-        "coverage_note": "HTML team page at www.hggc.com/team/ — 161 snapshots, 2013–2026. Excellent coverage. Needs extractor config.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2013–2026 via www.hggc.com/team/ (161 snapshots). "
+            "Flat team list — function inferred from title keywords. "
+            "No JSON API available."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":  "www.hggc.com/team/",
+                "extractor": "article_h3_paragraph",
+                # article_class / heading_class use defaults (half_article / half_article-heading)
+                "function_map": {},  # not used — function inferred from title
+                "title_function_map": {
+                    # ORDER MATTERS: more-specific patterns first
+                    r"operating partner":                          "Operating Resources",
+                    r"fund controller|fund accountant|accountant|controller|cfo": "Finance",
+                    r"finance":                                    "Finance",
+                    r"business development":                       "Business Development",
+                    r"senior advisor|executive advisor":           "Executive Advisors",
+                    r"partner|co-founder|co-chief|managing director|managing partner|president|executive director": "Investment Team",
+                    r"vice president|vp|principal":                "Investment Team",
+                    r"associate|analyst|director":                 "Investment Team",
+                    r"chief of staff|director of operations|executive assistant|philanthropy|compliance|counsel|receptionist|admin|legal|support|office": "Support",
+                },
+            }
+        ],
+        "function_order": [
+            "Investment Team", "Operating Resources", "Finance",
+            "Business Development", "Executive Advisors", "Support", "Other",
+        ],
     },
 
     "huron-capital-partners": {
@@ -545,12 +605,43 @@ FIRMS = {
     },
 
     "llr-partners": {
-        "configured": False, "firm_name": "LLR Partners", "firm_slug": "llr-partners",
-        "hq": "Philadelphia, PA", "fund_size": "~$3B", "focus": "Technology / Healthcare",
-        "start_year": 2010, "domain": "llrpartners.com",
+        "configured": True,
+        "firm_name":  "LLR Partners",
+        "firm_slug":  "llr-partners",
+        "hq":         "Philadelphia, PA",
+        "fund_size":  "~$3B",
+        "focus":      "Technology / Healthcare",
+        "start_year": 2010,
+        "domain":     "llrpartners.com",
         "output_file": "/tmp/llr-partners_human_capital.json",
-        "coverage_note": "HTML team page at www.llrpartners.com/team/ — 2010–2026. Excellent coverage. Ready to configure.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2010–2026 via www.llrpartners.com/team/. "
+            "Excellent 16-year coverage. Function inferred from title — extractor class names may need tuning."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":    "www.llrpartners.com/team/",
+                "extractor":   "div_name_title",
+                "function_map": {},
+                "wrapper_class": "team-member",
+                "name_class":    "team-member__name",
+                "title_class":   "team-member__title",
+                "title_function_map": {
+                    r"operating partner":                          "Operating Resources",
+                    r"partner|managing director|md|co-founder|president|executive director": "Investment Team",
+                    r"vice president|vp|principal":                "Investment Team",
+                    r"associate|analyst|director":                 "Investment Team",
+                    r"finance|controller|accountant|cfo":          "Finance",
+                    r"operations|chief of staff|admin|assistant|receptionist|legal|compliance|counsel": "Support",
+                    r"senior advisor|advisor":                     "Executive Advisors",
+                },
+            }
+        ],
+        "function_order": [
+            "Investment Team", "Operating Resources", "Finance",
+            "Executive Advisors", "Support", "Other",
+        ],
     },
 
     "lovell-minnick-partners": {
