@@ -187,6 +187,11 @@ def trigger_scrape(firm_slug: str, background_tasks: BackgroundTasks):
             status_code=404,
             detail=f"Firm '{firm_slug}' not found. Call GET /firms for the list."
         )
+    if not cfg.get("configured", False):
+        raise HTTPException(
+            status_code=400,
+            detail=f"'{cfg['firm_name']}' is registered but not yet configured for scraping. Check back soon."
+        )
 
     job_id = str(uuid.uuid4())[:8]
     jobs[job_id] = {
