@@ -1,0 +1,3220 @@
+{
+  "firm": "Linden Capital Partners",
+  "firm_slug": "linden-capital-partners",
+  "coverage_note": "Tier 2 (HTML): 2014\u20132023 via lindenllc.com/team/, 2024\u20132026 via linden.com/team/. No JSON API discovered. Finance not separately tracked pre-2019 (combined with Human Capital in older site slug).",
+  "generated_at": "2026-04-13T01:21:09Z",
+  "years_covered": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "data_tiers_used": [
+    "html"
+  ],
+  "summary": {
+    "unique_people": 80,
+    "total_records": 296,
+    "total_departures": 38,
+    "total_promotions": 0
+  },
+  "headcount_by_year": [
+    {
+      "year": 2014,
+      "Investment Team": 13,
+      "Human Capital": 2,
+      "Finance": 0,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 15
+    },
+    {
+      "year": 2015,
+      "Investment Team": 14,
+      "Human Capital": 3,
+      "Finance": 0,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 17
+    },
+    {
+      "year": 2016,
+      "Investment Team": 14,
+      "Human Capital": 3,
+      "Finance": 0,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 17
+    },
+    {
+      "year": 2017,
+      "Investment Team": 16,
+      "Human Capital": 3,
+      "Finance": 0,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 19
+    },
+    {
+      "year": 2018,
+      "Investment Team": 17,
+      "Human Capital": 4,
+      "Finance": 0,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 21
+    },
+    {
+      "year": 2019,
+      "Investment Team": 20,
+      "Human Capital": 3,
+      "Finance": 3,
+      "Information Technology": 0,
+      "Investor Relations": 0,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 26
+    },
+    {
+      "year": 2020,
+      "Investment Team": 24,
+      "Human Capital": 2,
+      "Finance": 3,
+      "Information Technology": 0,
+      "Investor Relations": 1,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 30
+    },
+    {
+      "year": 2021,
+      "Investment Team": 22,
+      "Human Capital": 2,
+      "Finance": 4,
+      "Information Technology": 0,
+      "Investor Relations": 1,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 29
+    },
+    {
+      "year": 2022,
+      "Investment Team": 29,
+      "Human Capital": 3,
+      "Finance": 6,
+      "Information Technology": 0,
+      "Investor Relations": 1,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 39
+    },
+    {
+      "year": 2023,
+      "Investment Team": 29,
+      "Human Capital": 3,
+      "Finance": 7,
+      "Information Technology": 0,
+      "Investor Relations": 2,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 41
+    },
+    {
+      "year": 2024,
+      "Investment Team": 29,
+      "Human Capital": 3,
+      "Finance": 8,
+      "Information Technology": 0,
+      "Investor Relations": 2,
+      "Portfolio Operations": 0,
+      "Other": 0,
+      "total": 42
+    }
+  ],
+  "turnover_metrics": [
+    {
+      "function": "Investment Team",
+      "total_ever_employed": 62,
+      "currently_active": 29,
+      "active_as_of_year": 2024,
+      "total_leavers": 33,
+      "retention_rate": 0.4677,
+      "avg_tenure_before_departure": 1.0,
+      "leaver_names": [
+        "AJ Gauthier",
+        "Alex Boyajian",
+        "Allen Levitas",
+        "Andy Nelson",
+        "Benjamin Belford",
+        "Benjamin Ryugo",
+        "Bennett Yasskin",
+        "Cameron Liss",
+        "Chase Grable",
+        "Colin Kenney",
+        "Daniel Fallahi",
+        "Dante Benitez",
+        "Darius Pool",
+        "David Nolan",
+        "David Rothfield",
+        "Eric Larson",
+        "Ishan Dey",
+        "Jack Neal",
+        "Jeet Sandhu",
+        "Josh Elder",
+        "Justin Brown",
+        "Kevin Shi",
+        "Lisa Cohen",
+        "Logan Goshorn",
+        "Mark Giragosian",
+        "Max Brenner",
+        "Max Gaby",
+        "Michael Bernard",
+        "Neel Varshney, MD",
+        "Orlando Remak",
+        "Robert Celin",
+        "Scott Margolis",
+        "William Drehkoff"
+      ]
+    },
+    {
+      "function": "Human Capital",
+      "total_ever_employed": 4,
+      "currently_active": 3,
+      "active_as_of_year": 2024,
+      "total_leavers": 1,
+      "retention_rate": 0.75,
+      "avg_tenure_before_departure": 0.0,
+      "leaver_names": [
+        "Demi Haupt"
+      ]
+    },
+    {
+      "function": "Finance",
+      "total_ever_employed": 12,
+      "currently_active": 8,
+      "active_as_of_year": 2024,
+      "total_leavers": 4,
+      "retention_rate": 0.6667,
+      "avg_tenure_before_departure": 1.0,
+      "leaver_names": [
+        "Grace Ann Crenny",
+        "Sheel Shah",
+        "Vi Nguyen",
+        "Yuri Douglas"
+      ]
+    },
+    {
+      "function": "Investor Relations",
+      "total_ever_employed": 2,
+      "currently_active": 2,
+      "active_as_of_year": 2024,
+      "total_leavers": 0,
+      "retention_rate": 1.0,
+      "avg_tenure_before_departure": null,
+      "leaver_names": []
+    }
+  ],
+  "promotions_detail": [],
+  "promotions_summary": [],
+  "departures_detail": [
+    {
+      "name": "Vi Nguyen",
+      "function": "Finance",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 1
+    },
+    {
+      "name": "Grace Ann Crenny",
+      "function": "Finance",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 1
+    },
+    {
+      "name": "Sheel Shah",
+      "function": "Finance",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Yuri Douglas",
+      "function": "Finance",
+      "last_seen": 2023,
+      "approx_departure_year": 2024,
+      "tenure_years": 1
+    },
+    {
+      "name": "Demi Haupt",
+      "function": "Human Capital",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Benjamin Ryugo",
+      "function": "Investment Team",
+      "last_seen": 2014,
+      "approx_departure_year": 2015,
+      "tenure_years": 0
+    },
+    {
+      "name": "Robert Celin",
+      "function": "Investment Team",
+      "last_seen": 2014,
+      "approx_departure_year": 2015,
+      "tenure_years": 0
+    },
+    {
+      "name": "Josh Elder",
+      "function": "Investment Team",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 1
+    },
+    {
+      "name": "Neel Varshney, MD",
+      "function": "Investment Team",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 1
+    },
+    {
+      "name": "William Drehkoff",
+      "function": "Investment Team",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 1
+    },
+    {
+      "name": "Alex Boyajian",
+      "function": "Investment Team",
+      "last_seen": 2016,
+      "approx_departure_year": 2017,
+      "tenure_years": 2
+    },
+    {
+      "name": "Eric Larson",
+      "function": "Investment Team",
+      "last_seen": 2016,
+      "approx_departure_year": 2017,
+      "tenure_years": 2
+    },
+    {
+      "name": "Daniel Fallahi",
+      "function": "Investment Team",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 1
+    },
+    {
+      "name": "David Nolan",
+      "function": "Investment Team",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 2
+    },
+    {
+      "name": "Jack Neal",
+      "function": "Investment Team",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 3
+    },
+    {
+      "name": "Scott Margolis",
+      "function": "Investment Team",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 0
+    },
+    {
+      "name": "Lisa Cohen",
+      "function": "Investment Team",
+      "last_seen": 2018,
+      "approx_departure_year": 2019,
+      "tenure_years": 0
+    },
+    {
+      "name": "Mark Giragosian",
+      "function": "Investment Team",
+      "last_seen": 2018,
+      "approx_departure_year": 2019,
+      "tenure_years": 1
+    },
+    {
+      "name": "Max Gaby",
+      "function": "Investment Team",
+      "last_seen": 2018,
+      "approx_departure_year": 2019,
+      "tenure_years": 2
+    },
+    {
+      "name": "Allen Levitas",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 1
+    },
+    {
+      "name": "Ishan Dey",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 1
+    },
+    {
+      "name": "Justin Brown",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 1
+    },
+    {
+      "name": "AJ Gauthier",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Benjamin Belford",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Bennett Yasskin",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Chase Grable",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 0
+    },
+    {
+      "name": "Kevin Shi",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Michael Bernard",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 4
+    },
+    {
+      "name": "Orlando Remak",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 0
+    },
+    {
+      "name": "Andy Nelson",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 0
+    },
+    {
+      "name": "Colin Kenney",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 1
+    },
+    {
+      "name": "Logan Goshorn",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 1
+    },
+    {
+      "name": "Cameron Liss",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Darius Pool",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "David Rothfield",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 2
+    },
+    {
+      "name": "Jeet Sandhu",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 0
+    },
+    {
+      "name": "Max Brenner",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Dante Benitez",
+      "function": "Investment Team",
+      "last_seen": 2023,
+      "approx_departure_year": 2024,
+      "tenure_years": 0
+    }
+  ],
+  "tenure": [
+    {
+      "name": "Douglass VanDegrift",
+      "function": "Finance",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Michael Connolly",
+      "function": "Finance",
+      "first_seen": 2015,
+      "last_seen": 2024,
+      "tenure_years": 9,
+      "still_active": true
+    },
+    {
+      "name": "Nick Silliman",
+      "function": "Finance",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Shadae Clarke",
+      "function": "Finance",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Caroline Hake",
+      "function": "Finance",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Grace Ann Crenny",
+      "function": "Finance",
+      "first_seen": 2020,
+      "last_seen": 2021,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Rebecca Siegel",
+      "function": "Finance",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Sheel Shah",
+      "function": "Finance",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Vi Nguyen",
+      "function": "Finance",
+      "first_seen": 2018,
+      "last_seen": 2019,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Yuri Douglas",
+      "function": "Finance",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Alyssa Knue",
+      "function": "Finance",
+      "first_seen": 2024,
+      "last_seen": 2024,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Matt Sloyan",
+      "function": "Finance",
+      "first_seen": 2024,
+      "last_seen": 2024,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Mark Sullivan",
+      "function": "Human Capital",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Brandon Heck",
+      "function": "Human Capital",
+      "first_seen": 2019,
+      "last_seen": 2024,
+      "tenure_years": 5,
+      "still_active": true
+    },
+    {
+      "name": "Ally Pace",
+      "function": "Human Capital",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Demi Haupt",
+      "function": "Human Capital",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Anthony Davis",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Brian Miller",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Kam Shah",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Michael Farah",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Michael Watts",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2024,
+      "tenure_years": 10,
+      "still_active": true
+    },
+    {
+      "name": "Adam Friedman",
+      "function": "Investment Team",
+      "first_seen": 2015,
+      "last_seen": 2024,
+      "tenure_years": 9,
+      "still_active": true
+    },
+    {
+      "name": "Joshua Reilly",
+      "function": "Investment Team",
+      "first_seen": 2015,
+      "last_seen": 2024,
+      "tenure_years": 9,
+      "still_active": true
+    },
+    {
+      "name": "Nico Holtz",
+      "function": "Investment Team",
+      "first_seen": 2017,
+      "last_seen": 2024,
+      "tenure_years": 7,
+      "still_active": true
+    },
+    {
+      "name": "Piyush Shukla",
+      "function": "Investment Team",
+      "first_seen": 2017,
+      "last_seen": 2024,
+      "tenure_years": 7,
+      "still_active": true
+    },
+    {
+      "name": "Aakash Madhu",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2024,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Prab Chawla",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2024,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Arsi Sefaj",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2024,
+      "tenure_years": 5,
+      "still_active": true
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2024,
+      "tenure_years": 5,
+      "still_active": true
+    },
+    {
+      "name": "Scott Gallin",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2024,
+      "tenure_years": 5,
+      "still_active": true
+    },
+    {
+      "name": "Brandon Yu",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2024,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Michael Bernard",
+      "function": "Investment Team",
+      "first_seen": 2016,
+      "last_seen": 2020,
+      "tenure_years": 4,
+      "still_active": false
+    },
+    {
+      "name": "Dan Fallahi",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2024,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Jack Neal",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2017,
+      "tenure_years": 3,
+      "still_active": false
+    },
+    {
+      "name": "Alex Boyajian",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2016,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Alex Greeley",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Brad Coan",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Brennan McGovern",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "David Nolan",
+      "function": "Investment Team",
+      "first_seen": 2015,
+      "last_seen": 2017,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "David Rothfield",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2022,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Deepak Janardan",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Eric Larson",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2016,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Justin Yang",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Max Gaby",
+      "function": "Investment Team",
+      "first_seen": 2016,
+      "last_seen": 2018,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Mitch Hagan",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Patrick Donovan",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Sam Rocheford",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2024,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "AJ Gauthier",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Allen Levitas",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2019,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Arthur Dussias",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Benjamin Belford",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Bennett Yasskin",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Cameron Liss",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Colin Kenney",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2021,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Daniel Fallahi",
+      "function": "Investment Team",
+      "first_seen": 2016,
+      "last_seen": 2017,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Darius Pool",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Ishan Dey",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2019,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Josh Elder",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2015,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Justin Brown",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2019,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Katerina Gan",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Kevin Shi",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Leah Ulrich",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Logan Goshorn",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2021,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Mark Giragosian",
+      "function": "Investment Team",
+      "first_seen": 2017,
+      "last_seen": 2018,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Max Brenner",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Neel Varshney, MD",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2015,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "William Drehkoff",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2015,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Zack DeLang",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Andrew Russell",
+      "function": "Investment Team",
+      "first_seen": 2024,
+      "last_seen": 2024,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Andy Nelson",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2021,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Benjamin Ryugo",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2014,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Chase Grable",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2020,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Dante Benitez",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Jeet Sandhu",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2022,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Lisa Cohen",
+      "function": "Investment Team",
+      "first_seen": 2018,
+      "last_seen": 2018,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Orlando Remak",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2020,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Robert Celin",
+      "function": "Investment Team",
+      "first_seen": 2014,
+      "last_seen": 2014,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Scott Margolis",
+      "function": "Investment Team",
+      "first_seen": 2017,
+      "last_seen": 2017,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Katie Kornel",
+      "function": "Investor Relations",
+      "first_seen": 2020,
+      "last_seen": 2024,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Chandler Devlin",
+      "function": "Investor Relations",
+      "first_seen": 2023,
+      "last_seen": 2024,
+      "tenure_years": 1,
+      "still_active": true
+    }
+  ],
+  "raw_snapshots": [
+    {
+      "name": "Alex Boyajian",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Benjamin Ryugo",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Eric Larson",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Neal",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Josh Elder",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Neel Varshney, MD",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Robert Celin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "William Drehkoff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Boyajian",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "David Nolan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Eric Larson",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Neal",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Josh Elder",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Neel Varshney, MD",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "William Drehkoff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Boyajian",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Daniel Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "David Nolan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Eric Larson",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Neal",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Max Gaby",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Bernard",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Daniel Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "David Nolan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Neal",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Giragosian",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Max Gaby",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Bernard",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Nico Holtz",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Margolis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Allen Levitas",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Ishan Dey",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Brown",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Lisa Cohen",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Giragosian",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Max Gaby",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Bernard",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Nico Holtz",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "Vi Nguyen",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2018",
+      "tier": "html"
+    },
+    {
+      "name": "AJ Gauthier",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Allen Levitas",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Benjamin Belford",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Bennett Yasskin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Demi Haupt",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Ishan Dey",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Brown",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Shi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Bernard",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Vi Nguyen",
+      "title": null,
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "AJ Gauthier",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Benjamin Belford",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Bennett Yasskin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Yu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Chase Grable",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Kenney",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "David Rothfield",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Grace Ann Crenny",
+      "title": null,
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Kornel",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Shi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Logan Goshorn",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Bernard",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Orlando Remak",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Andy Nelson",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Yu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Cameron Liss",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Kenney",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Darius Pool",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "David Rothfield",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Grace Ann Crenny",
+      "title": null,
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Kornel",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Logan Goshorn",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Max Brenner",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Sheel Shah",
+      "title": null,
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Greeley",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Ally Pace",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brad Coan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Yu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brennan McGovern",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Cameron Liss",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Darius Pool",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "David Rothfield",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Deepak Janardan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jeet Sandhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Yang",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Kornel",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Max Brenner",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Mitch Hagan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Nick Silliman",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Nico Holtz",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Donovan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Sam Rocheford",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Shadae Clarke",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Sheel Shah",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Yuri Douglas",
+      "title": null,
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Greeley",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Ally Pace",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Arthur Dussias",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brad Coan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Yu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brennan McGovern",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Caroline Hake",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Chandler Devlin",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Dante Benitez",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Deepak Janardan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Yang",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Katerina Gan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Kornel",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Leah Ulrich",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Mitch Hagan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Nick Silliman",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Nico Holtz",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Donovan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Rebecca Siegel",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Sam Rocheford",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Shadae Clarke",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Yuri Douglas",
+      "title": null,
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Zack DeLang",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Aakash Madhu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Friedman",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Greeley",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Ally Pace",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Alyssa Knue",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Andrew Russell",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Anthony Davis",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Arsi Sefaj",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Arthur Dussias",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Brad Coan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Heck",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Brandon Yu",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Brennan McGovern",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Miller",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Caroline Hake",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Chandler Devlin",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Fallahi",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Deepak Janardan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Douglass VanDegrift",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Jonathan Skekloff",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Joshua Reilly",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Yang",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Kam Shah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Katerina Gan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Kornel",
+      "title": null,
+      "function": "Investor Relations",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Leah Ulrich",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Sullivan",
+      "title": null,
+      "function": "Human Capital",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Sloyan",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Connolly",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Farah",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Watts",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Mitch Hagan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Nick Silliman",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Nico Holtz",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Donovan",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Piyush Shukla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Prab Chawla",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Rebecca Siegel",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Sam Rocheford",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Gallin",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Shadae Clarke",
+      "title": null,
+      "function": "Finance",
+      "year": "2024",
+      "tier": "html"
+    },
+    {
+      "name": "Zack DeLang",
+      "title": null,
+      "function": "Investment Team",
+      "year": "2024",
+      "tier": "html"
+    }
+  ]
+}
