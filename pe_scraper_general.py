@@ -287,7 +287,7 @@ def _infer_function_from_title(title: str, title_function_map: dict | None) -> s
     return the first matching function name, or 'Other' if no match.
     Comparison is case-insensitive.
     """
-    if not title_function_map or not title:
+    if not title_function_map or not title or not isinstance(title, str):
         return "Other"
     t = title.lower()
     for pattern, func in title_function_map.items():
@@ -316,7 +316,7 @@ def normalize_name(name: str) -> str:
 
 
 def get_level(title: str) -> int | None:
-    if not title:
+    if not title or not isinstance(title, str):
         return None
     t = title.lower()
     for keyword, level in sorted(LEVEL_ORDER.items(), key=lambda x: -len(x[0])):
@@ -599,7 +599,7 @@ def build_year_plan(api_snaps: list[dict], html_snaps: list[dict]) -> list[dict]
 def analyze(df: pd.DataFrame):
     df = df.copy()
     df["year"]      = df["year"].astype(int)
-    df["name_norm"] = df["name"].apply(lambda n: n.lower().strip())
+    df["name_norm"] = df["name"].apply(lambda n: n.lower().strip() if isinstance(n, str) else "")
     df = df.sort_values("year")
     latest_year = int(df["year"].max())
 
