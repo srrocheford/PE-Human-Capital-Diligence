@@ -131,17 +131,42 @@ FIRMS = {
     # ══════════════════════════════════════════════════════════════════════════
 
     "gtcr": {
-        "configured": False,
+        "configured": True,
         "firm_name":  "GTCR",
         "firm_slug":  "gtcr",
         "hq":         "Chicago, IL",
         "fund_size":  "~$11.5B",
         "focus":      "Diversified",
-        "start_year": 2010,
-        "domain":     "www.gtcr.com",
+        "start_year": 2016,
+        "domain":     "gtcr.com",
         "output_file": "/tmp/gtcr_human_capital.json",
-        "coverage_note": "WP REST API discovered (wp-json/wp/v2/). HTML team page at gtcr.com/team/. Ready to configure.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2016–2019 via gtcr.com/team/ (10 snapshots, ~56–61 people/snap). "
+            "WordPress child theme with team-hover card pattern; name/title in <span class='name/title'>. "
+            "Site migrated to Vue SPA (gtcr-vue theme) in 2020 — snapshots from 2020+ are JS-only shells; "
+            "Tier 3 (Playwright) required for 2020+ coverage. "
+            "Older 2010–2011 who-we-are/ page archived (47 snapshots) but names only, no titles — skipped."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":     "gtcr.com/team/",
+                "extractor":    "div_name_title",
+                "function_map": {},
+                "title_function_map": {
+                    r"chief financial officer|controller":                      "Finance",
+                    r"general counsel|compliance":                              "Legal & Compliance",
+                    r"chief talent|human resources|director of events|chief information|director of information": "Operations",
+                    r"managing director|vice president|principal|associate":    "Investment Team",
+                },
+                "wrapper_class": "team-hover",
+                "name_class":    "name",
+                "title_class":   "title",
+            }
+        ],
+        "function_order": [
+            "Investment Team", "Finance", "Legal & Compliance", "Operations", "Other"
+        ],
     },
 
     "flexpoint-ford": {
