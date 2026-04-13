@@ -1,0 +1,7 @@
+# Excel files — use JSON for Lovable; keep xlsx local only
+*.xlsx
+*.xls
+# Python cache
+__pycache__/
+*.pyc
+.env

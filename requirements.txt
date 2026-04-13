@@ -1,0 +1,7 @@
+# PE Human Capital Tracker — dependencies
+# Install with: pip install -r requirements.txt
+
+anthropic>=0.25.0      # Claude API client
+requests>=2.31.0       # HTTP calls to Wayback Machine CDX API + HTML fetching
+pandas>=2.1.0          # DataFrames + Excel writing
+openpyxl>=3.1.0        # Excel engine used by pandas ExcelWriter

@@ -1,0 +1,2202 @@
+{
+  "firm": "Water Street Healthcare Partners",
+  "firm_slug": "water-street-healthcare-partners",
+  "coverage_note": "Tier 1 (JSON API): 2020, 2025 via waterstreet.com/api/people.json. Tier 2 (HTML): 2013\u20132019 via waterstreet.com/our-people/. 2020+ /people/ page is JS-rendered and yields no HTML data.",
+  "generated_at": "2026-04-12T23:44:40Z",
+  "years_covered": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2019
+  ],
+  "data_tiers_used": [
+    "html"
+  ],
+  "summary": {
+    "unique_people": 54,
+    "total_records": 204,
+    "total_departures": 14,
+    "total_promotions": 5
+  },
+  "headcount_by_year": [
+    {
+      "year": 2013,
+      "Investment Partners": 8,
+      "Associates": 6,
+      "Operating Resources": 7,
+      "Executive Advisors": 0,
+      "Corporate Resources": 3,
+      "Support Team": 3,
+      "Other": 0,
+      "total": 27
+    },
+    {
+      "year": 2014,
+      "Investment Partners": 8,
+      "Associates": 7,
+      "Operating Resources": 7,
+      "Executive Advisors": 0,
+      "Corporate Resources": 3,
+      "Support Team": 3,
+      "Other": 0,
+      "total": 28
+    },
+    {
+      "year": 2015,
+      "Investment Partners": 8,
+      "Associates": 6,
+      "Operating Resources": 7,
+      "Executive Advisors": 5,
+      "Corporate Resources": 4,
+      "Support Team": 3,
+      "Other": 0,
+      "total": 33
+    },
+    {
+      "year": 2016,
+      "Investment Partners": 9,
+      "Associates": 5,
+      "Operating Resources": 7,
+      "Executive Advisors": 8,
+      "Corporate Resources": 4,
+      "Support Team": 3,
+      "Other": 0,
+      "total": 36
+    },
+    {
+      "year": 2017,
+      "Investment Partners": 9,
+      "Associates": 7,
+      "Operating Resources": 8,
+      "Executive Advisors": 9,
+      "Corporate Resources": 4,
+      "Support Team": 3,
+      "Other": 0,
+      "total": 40
+    },
+    {
+      "year": 2019,
+      "Investment Partners": 11,
+      "Associates": 6,
+      "Operating Resources": 8,
+      "Executive Advisors": 8,
+      "Corporate Resources": 3,
+      "Support Team": 4,
+      "Other": 0,
+      "total": 40
+    }
+  ],
+  "turnover_metrics": [
+    {
+      "function": "Investment Partners",
+      "total_ever_employed": 11,
+      "currently_active": 11,
+      "active_as_of_year": 2019,
+      "total_leavers": 0,
+      "retention_rate": 1.0,
+      "avg_tenure_before_departure": null,
+      "leaver_names": []
+    },
+    {
+      "function": "Associates",
+      "total_ever_employed": 15,
+      "currently_active": 6,
+      "active_as_of_year": 2019,
+      "total_leavers": 9,
+      "retention_rate": 0.4,
+      "avg_tenure_before_departure": 1.0,
+      "leaver_names": [
+        "Alex Hunstad",
+        "Dan Vargas",
+        "Jack Glerum",
+        "John Helms",
+        "Kevin Buchheit",
+        "Kevin McGrath",
+        "Nikhil Patel",
+        "Ronald Rascia",
+        "Trevor Ryan"
+      ]
+    },
+    {
+      "function": "Operating Resources",
+      "total_ever_employed": 9,
+      "currently_active": 8,
+      "active_as_of_year": 2019,
+      "total_leavers": 1,
+      "retention_rate": 0.8889,
+      "avg_tenure_before_departure": 1.0,
+      "leaver_names": [
+        "Steve Shulman"
+      ]
+    },
+    {
+      "function": "Executive Advisors",
+      "total_ever_employed": 11,
+      "currently_active": 8,
+      "active_as_of_year": 2019,
+      "total_leavers": 3,
+      "retention_rate": 0.7273,
+      "avg_tenure_before_departure": 1.3,
+      "leaver_names": [
+        "Erik Martinez",
+        "Ken Paulus",
+        "Mark Rosenbaum"
+      ]
+    },
+    {
+      "function": "Corporate Resources",
+      "total_ever_employed": 4,
+      "currently_active": 3,
+      "active_as_of_year": 2019,
+      "total_leavers": 1,
+      "retention_rate": 0.75,
+      "avg_tenure_before_departure": 4.0,
+      "leaver_names": [
+        "Hilary Dexter"
+      ]
+    },
+    {
+      "function": "Support Team",
+      "total_ever_employed": 4,
+      "currently_active": 4,
+      "active_as_of_year": 2019,
+      "total_leavers": 0,
+      "retention_rate": 1.0,
+      "avg_tenure_before_departure": null,
+      "leaver_names": []
+    }
+  ],
+  "promotions_detail": [
+    {
+      "name": "Katie Ossman",
+      "function": "Investment Partners",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2017,
+      "first_year_in_new": 2019,
+      "years_in_prior_role": 2
+    },
+    {
+      "name": "Max Mishkin",
+      "function": "Investment Partners",
+      "from_title": "Principal",
+      "to_title": "Partner",
+      "last_year_in_role": 2017,
+      "first_year_in_new": 2019,
+      "years_in_prior_role": 2
+    },
+    {
+      "name": "Mike Brennan",
+      "function": "Investment Partners",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2014,
+      "first_year_in_new": 2015,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Patrick Teyro",
+      "function": "Investment Partners",
+      "from_title": "Associate",
+      "to_title": "Vice President",
+      "last_year_in_role": 2016,
+      "first_year_in_new": 2019,
+      "years_in_prior_role": 3
+    },
+    {
+      "name": "Rob George",
+      "function": "Investment Partners",
+      "from_title": "Associate",
+      "to_title": "Vice President",
+      "last_year_in_role": 2015,
+      "first_year_in_new": 2019,
+      "years_in_prior_role": 4
+    }
+  ],
+  "promotions_summary": [
+    {
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "n_observed": 2,
+      "avg_years_in_prior_role": 1.5
+    },
+    {
+      "from_title": "Principal",
+      "to_title": "Partner",
+      "n_observed": 1,
+      "avg_years_in_prior_role": 2.0
+    },
+    {
+      "from_title": "Associate",
+      "to_title": "Vice President",
+      "n_observed": 2,
+      "avg_years_in_prior_role": 3.5
+    }
+  ],
+  "departures_detail": [
+    {
+      "name": "Nikhil Patel",
+      "function": "Associates",
+      "last_seen": 2013,
+      "approx_departure_year": 2014,
+      "tenure_years": 0
+    },
+    {
+      "name": "Alex Hunstad",
+      "function": "Associates",
+      "last_seen": 2014,
+      "approx_departure_year": 2015,
+      "tenure_years": 0
+    },
+    {
+      "name": "Dan Vargas",
+      "function": "Associates",
+      "last_seen": 2014,
+      "approx_departure_year": 2015,
+      "tenure_years": 1
+    },
+    {
+      "name": "John Helms",
+      "function": "Associates",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 1
+    },
+    {
+      "name": "Kevin Buchheit",
+      "function": "Associates",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 2
+    },
+    {
+      "name": "Ronald Rascia",
+      "function": "Associates",
+      "last_seen": 2015,
+      "approx_departure_year": 2016,
+      "tenure_years": 2
+    },
+    {
+      "name": "Trevor Ryan",
+      "function": "Associates",
+      "last_seen": 2016,
+      "approx_departure_year": 2017,
+      "tenure_years": 1
+    },
+    {
+      "name": "Jack Glerum",
+      "function": "Associates",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 1
+    },
+    {
+      "name": "Kevin McGrath",
+      "function": "Associates",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 1
+    },
+    {
+      "name": "Hilary Dexter",
+      "function": "Corporate Resources",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 4
+    },
+    {
+      "name": "Erik Martinez",
+      "function": "Executive Advisors",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 2
+    },
+    {
+      "name": "Ken Paulus",
+      "function": "Executive Advisors",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 1
+    },
+    {
+      "name": "Mark Rosenbaum",
+      "function": "Executive Advisors",
+      "last_seen": 2017,
+      "approx_departure_year": 2018,
+      "tenure_years": 1
+    },
+    {
+      "name": "Steve Shulman",
+      "function": "Operating Resources",
+      "last_seen": 2014,
+      "approx_departure_year": 2015,
+      "tenure_years": 1
+    }
+  ],
+  "tenure": [
+    {
+      "name": "Michael Praljak",
+      "function": "Associates",
+      "first_seen": 2016,
+      "last_seen": 2019,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Al Organ",
+      "function": "Associates",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Chris Shanahan",
+      "function": "Associates",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Claeson Dillon",
+      "function": "Associates",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Dan Vollman",
+      "function": "Associates",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Kevin Buchheit",
+      "function": "Associates",
+      "first_seen": 2013,
+      "last_seen": 2015,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Ronald Rascia",
+      "function": "Associates",
+      "first_seen": 2013,
+      "last_seen": 2015,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Dan Vargas",
+      "function": "Associates",
+      "first_seen": 2013,
+      "last_seen": 2014,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Jack Glerum",
+      "function": "Associates",
+      "first_seen": 2016,
+      "last_seen": 2017,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "John Helms",
+      "function": "Associates",
+      "first_seen": 2014,
+      "last_seen": 2015,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Kevin McGrath",
+      "function": "Associates",
+      "first_seen": 2016,
+      "last_seen": 2017,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Trevor Ryan",
+      "function": "Associates",
+      "first_seen": 2015,
+      "last_seen": 2016,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Alex Hunstad",
+      "function": "Associates",
+      "first_seen": 2014,
+      "last_seen": 2014,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Nikhil Patel",
+      "function": "Associates",
+      "first_seen": 2013,
+      "last_seen": 2013,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Tony Clewlow",
+      "function": "Associates",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Greg Robitaille",
+      "function": "Corporate Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Kelly Zitlow",
+      "function": "Corporate Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Hilary Dexter",
+      "function": "Corporate Resources",
+      "first_seen": 2013,
+      "last_seen": 2017,
+      "tenure_years": 4,
+      "still_active": false
+    },
+    {
+      "name": "Paul Cottey",
+      "function": "Corporate Resources",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Patrick Balthrop",
+      "function": "Executive Advisors",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Scott Atkin",
+      "function": "Executive Advisors",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Stuart Essig",
+      "function": "Executive Advisors",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Tony Masso",
+      "function": "Executive Advisors",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Paul Glyer",
+      "function": "Executive Advisors",
+      "first_seen": 2016,
+      "last_seen": 2019,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Boris Bernstein",
+      "function": "Executive Advisors",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Erik Martinez",
+      "function": "Executive Advisors",
+      "first_seen": 2015,
+      "last_seen": 2017,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Ken Paulus",
+      "function": "Executive Advisors",
+      "first_seen": 2016,
+      "last_seen": 2017,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Mark Rosenbaum",
+      "function": "Executive Advisors",
+      "first_seen": 2016,
+      "last_seen": 2017,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Adam Johnson",
+      "function": "Executive Advisors",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Mark Goldberg",
+      "function": "Executive Advisors",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Chris Sweeney",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Katie Ossman",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Max Mishkin",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Mike Brennan",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Ned Villers",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Patrick Teyro",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Peter Strothman",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Rob George",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Rob Womsley",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Tim Dugan",
+      "function": "Investment Partners",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Nicklaus Daley",
+      "function": "Investment Partners",
+      "first_seen": 2016,
+      "last_seen": 2019,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Al Heller",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Curt Selquist",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Jim Connelly",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Kevin Swan",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Scott Garrett",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Steve Cosler",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Mike Mirt",
+      "function": "Operating Resources",
+      "first_seen": 2015,
+      "last_seen": 2019,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Eric Reimer",
+      "function": "Operating Resources",
+      "first_seen": 2017,
+      "last_seen": 2019,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Steve Shulman",
+      "function": "Operating Resources",
+      "first_seen": 2013,
+      "last_seen": 2014,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Carrie Raffin",
+      "function": "Support Team",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Jeff Holway",
+      "function": "Support Team",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Katie Hayes",
+      "function": "Support Team",
+      "first_seen": 2013,
+      "last_seen": 2019,
+      "tenure_years": 6,
+      "still_active": true
+    },
+    {
+      "name": "Elizabeth Garrett",
+      "function": "Support Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": true
+    }
+  ],
+  "raw_snapshots": [
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Vargas",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Hilary Dexter",
+      "title": "Talent Management",
+      "function": "Corporate Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Buchheit",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Nikhil Patel",
+      "title": "Senior Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Teyro",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Rob George",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Ronald Rascia",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Shulman",
+      "title": "Senior Advisor",
+      "function": "Operating Resources",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2013",
+      "tier": "html"
+    },
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Hunstad",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Vargas",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Hilary Dexter",
+      "title": "Talent Management",
+      "function": "Corporate Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "John Helms",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Buchheit",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Teyro",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Rob George",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Ronald Rascia",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Shulman",
+      "title": "Senior Advisor",
+      "function": "Operating Resources",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2014",
+      "tier": "html"
+    },
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Erik Martinez",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Hilary Dexter",
+      "title": "Talent Management",
+      "function": "Corporate Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "John Helms",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Buchheit",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Mirt",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Balthrop",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Teyro",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Cottey",
+      "title": "Chief Information Officer",
+      "function": "Corporate Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Rob George",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Ronald Rascia",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Atkin",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Stuart Essig",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Tony Masso",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Trevor Ryan",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2015",
+      "tier": "html"
+    },
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Erik Martinez",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Hilary Dexter",
+      "title": "Talent Management",
+      "function": "Corporate Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Glerum",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Ken Paulus",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin McGrath",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Rosenbaum",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Praljak",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Mirt",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Nicklaus Daley",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Balthrop",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Teyro",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Cottey",
+      "title": "Chief Information Officer",
+      "function": "Corporate Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Glyer",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Atkin",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Stuart Essig",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Tony Masso",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Trevor Ryan",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2016",
+      "tier": "html"
+    },
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Al Organ",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Boris Bernstein",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Shanahan",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Claeson Dillon",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Vollman",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Eric Reimer",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Erik Martinez",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Hilary Dexter",
+      "title": "Talent Management",
+      "function": "Corporate Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Jack Glerum",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Ken Paulus",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin McGrath",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Rosenbaum",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Praljak",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Mirt",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Nicklaus Daley",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Balthrop",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Cottey",
+      "title": "Chief Information Officer",
+      "function": "Corporate Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Glyer",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Atkin",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Stuart Essig",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Tony Masso",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2017",
+      "tier": "html"
+    },
+    {
+      "name": "Adam Johnson",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Al Heller",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Al Organ",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Boris Bernstein",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Carrie Raffin",
+      "title": "Human Resources Manager",
+      "function": "Support Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Shanahan",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Sweeney",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Claeson Dillon",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Curt Selquist",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Vollman",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Elizabeth Garrett",
+      "title": "Assistant Controller",
+      "function": "Support Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Eric Reimer",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Robitaille",
+      "title": "Corporate Development",
+      "function": "Corporate Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jeff Holway",
+      "title": "Chief Financial and Administrative Officer",
+      "function": "Support Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Connelly",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Hayes",
+      "title": "Controller",
+      "function": "Support Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Katie Ossman",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Kelly Zitlow",
+      "title": "Corporate Communications",
+      "function": "Corporate Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Kevin Swan",
+      "title": "Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Mark Goldberg",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Max Mishkin",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Praljak",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Brennan",
+      "title": "Principal",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Mike Mirt",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Ned Villers",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Nicklaus Daley",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Balthrop",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Teyro",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Cottey",
+      "title": "Chief Information Officer",
+      "function": "Corporate Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Glyer",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Strothman",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Rob George",
+      "title": "Vice President",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Rob Womsley",
+      "title": "Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Atkin",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Scott Garrett",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Cosler",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Stuart Essig",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Tim Dugan",
+      "title": "Managing Partner",
+      "function": "Investment Partners",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Tony Clewlow",
+      "title": "Associate",
+      "function": "Associates",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Tony Masso",
+      "title": "Executive Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    }
+  ]
+}
