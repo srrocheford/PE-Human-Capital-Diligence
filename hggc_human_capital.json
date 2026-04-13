@@ -1,0 +1,4078 @@
+{
+  "firm": "HGGC",
+  "firm_slug": "hggc",
+  "coverage_note": "Tier 2 (HTML): 2013\u20132026 via www.hggc.com/team/ (161 snapshots). Flat team list \u2014 function inferred from title keywords. No JSON API available.",
+  "generated_at": "2026-04-13T04:07:39Z",
+  "years_covered": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "data_tiers_used": [
+    "html"
+  ],
+  "summary": {
+    "unique_people": 122,
+    "total_records": 348,
+    "total_departures": 43,
+    "total_promotions": 14
+  },
+  "headcount_by_year": [
+    {
+      "year": 2019,
+      "Investment Team": 40,
+      "Operating Resources": 8,
+      "Finance": 4,
+      "Business Development": 3,
+      "Executive Advisors": 1,
+      "Support": 7,
+      "Other": 4,
+      "total": 67
+    },
+    {
+      "year": 2020,
+      "Investment Team": 40,
+      "Operating Resources": 9,
+      "Finance": 3,
+      "Business Development": 3,
+      "Executive Advisors": 1,
+      "Support": 8,
+      "Other": 5,
+      "total": 69
+    },
+    {
+      "year": 2021,
+      "Investment Team": 37,
+      "Operating Resources": 9,
+      "Finance": 3,
+      "Business Development": 3,
+      "Executive Advisors": 1,
+      "Support": 7,
+      "Other": 3,
+      "total": 63
+    },
+    {
+      "year": 2022,
+      "Investment Team": 41,
+      "Operating Resources": 7,
+      "Finance": 6,
+      "Business Development": 3,
+      "Executive Advisors": 1,
+      "Support": 10,
+      "Other": 2,
+      "total": 70
+    },
+    {
+      "year": 2023,
+      "Investment Team": 45,
+      "Operating Resources": 6,
+      "Finance": 5,
+      "Business Development": 3,
+      "Executive Advisors": 2,
+      "Support": 12,
+      "Other": 6,
+      "total": 79
+    }
+  ],
+  "turnover_metrics": [
+    {
+      "function": "Investment Team",
+      "total_ever_employed": 76,
+      "currently_active": 45,
+      "active_as_of_year": 2023,
+      "total_leavers": 31,
+      "retention_rate": 0.5921,
+      "avg_tenure_before_departure": 0.7,
+      "leaver_names": [
+        "Aaron Wen",
+        "Anna Ike",
+        "Dan Stanko",
+        "Dylan Young",
+        "Farouk Hussein",
+        "Garrett Shipp",
+        "Genevieve Crawford",
+        "Hampton Ike",
+        "Ignacio de Lera",
+        "Jeremiah Jewkes",
+        "Joanne So",
+        "John Block",
+        "John Byers",
+        "Lalitha Cheruvu",
+        "Margaret Meyo",
+        "Michael Ellis",
+        "Mo Gulamhusein",
+        "Naznin Jahan",
+        "Neha Vaidya",
+        "Patrick Malanga",
+        "Peter Cozzi",
+        "Rebecca Gu",
+        "Ryan Lee",
+        "Sarbari Bhattacharjee",
+        "Stephen Young",
+        "Stewart White",
+        "Welsford Bishopric",
+        "Will Dean",
+        "Will Montgomery",
+        "Will Spector",
+        "Zac Adams"
+      ]
+    },
+    {
+      "function": "Operating Resources",
+      "total_ever_employed": 10,
+      "currently_active": 6,
+      "active_as_of_year": 2023,
+      "total_leavers": 4,
+      "retention_rate": 0.6,
+      "avg_tenure_before_departure": 2.0,
+      "leaver_names": [
+        "Ankit Dhawan",
+        "Bennett Nussbaum",
+        "Matt Witherell",
+        "Scott St. Clair"
+      ]
+    },
+    {
+      "function": "Finance",
+      "total_ever_employed": 9,
+      "currently_active": 5,
+      "active_as_of_year": 2023,
+      "total_leavers": 4,
+      "retention_rate": 0.5556,
+      "avg_tenure_before_departure": 0.2,
+      "leaver_names": [
+        "Chandani Shah",
+        "Daniel Cook",
+        "Jenny Bacon",
+        "Monica Wu"
+      ]
+    },
+    {
+      "function": "Business Development",
+      "total_ever_employed": 3,
+      "currently_active": 3,
+      "active_as_of_year": 2023,
+      "total_leavers": 0,
+      "retention_rate": 1.0,
+      "avg_tenure_before_departure": null,
+      "leaver_names": []
+    },
+    {
+      "function": "Executive Advisors",
+      "total_ever_employed": 2,
+      "currently_active": 2,
+      "active_as_of_year": 2023,
+      "total_leavers": 0,
+      "retention_rate": 1.0,
+      "avg_tenure_before_departure": null,
+      "leaver_names": []
+    },
+    {
+      "function": "Support",
+      "total_ever_employed": 15,
+      "currently_active": 12,
+      "active_as_of_year": 2023,
+      "total_leavers": 3,
+      "retention_rate": 0.8,
+      "avg_tenure_before_departure": 2.0,
+      "leaver_names": [
+        "Annie Loosle",
+        "Eloisa Angeles",
+        "Jade Bollinger"
+      ]
+    },
+    {
+      "function": "Other",
+      "total_ever_employed": 7,
+      "currently_active": 6,
+      "active_as_of_year": 2023,
+      "total_leavers": 1,
+      "retention_rate": 0.8571,
+      "avg_tenure_before_departure": 1.0,
+      "leaver_names": [
+        "Steve Marino"
+      ]
+    }
+  ],
+  "promotions_detail": [
+    {
+      "name": "Aaron Wen",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2021,
+      "first_year_in_new": 2022,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Alex Bryan",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2020,
+      "first_year_in_new": 2021,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Bill Conrad",
+      "function": "Investment Team",
+      "from_title": "Principal",
+      "to_title": "Partner",
+      "last_year_in_role": 2020,
+      "first_year_in_new": 2021,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Chris Schulze",
+      "function": "Investment Team",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2021,
+      "first_year_in_new": 2022,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Colin Phinisey",
+      "function": "Investment Team",
+      "from_title": "Head of Debt Capital Markets",
+      "to_title": "Partner and Head of Debt Capital Markets",
+      "last_year_in_role": 2022,
+      "first_year_in_new": 2023,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Dan Stanko",
+      "function": "Investment Team",
+      "from_title": "Principal",
+      "to_title": "Partner",
+      "last_year_in_role": 2019,
+      "first_year_in_new": 2020,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Guneev Lamba",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2021,
+      "first_year_in_new": 2022,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Holland Reynolds",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2020,
+      "first_year_in_new": 2021,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Matt Roesch",
+      "function": "Investment Team",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2021,
+      "first_year_in_new": 2022,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Matthew Cox",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2022,
+      "first_year_in_new": 2023,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Neil White",
+      "function": "Investment Team",
+      "from_title": "Partner",
+      "to_title": "Partner and President",
+      "last_year_in_role": 2021,
+      "first_year_in_new": 2022,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Pat Dugoni",
+      "function": "Investment Team",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2020,
+      "first_year_in_new": 2021,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Patrick Malanga",
+      "function": "Investment Team",
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "last_year_in_role": 2019,
+      "first_year_in_new": 2020,
+      "years_in_prior_role": 1
+    },
+    {
+      "name": "Phil Sampognaro",
+      "function": "Investment Team",
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "last_year_in_role": 2020,
+      "first_year_in_new": 2021,
+      "years_in_prior_role": 1
+    }
+  ],
+  "promotions_summary": [
+    {
+      "from_title": "Associate",
+      "to_title": "Senior Associate",
+      "n_observed": 6,
+      "avg_years_in_prior_role": 1.0
+    },
+    {
+      "from_title": "Head of Debt Capital Markets",
+      "to_title": "Partner and Head of Debt Capital Markets",
+      "n_observed": 1,
+      "avg_years_in_prior_role": 1.0
+    },
+    {
+      "from_title": "Partner",
+      "to_title": "Partner and President",
+      "n_observed": 1,
+      "avg_years_in_prior_role": 1.0
+    },
+    {
+      "from_title": "Principal",
+      "to_title": "Partner",
+      "n_observed": 2,
+      "avg_years_in_prior_role": 1.0
+    },
+    {
+      "from_title": "Vice President",
+      "to_title": "Principal",
+      "n_observed": 4,
+      "avg_years_in_prior_role": 1.0
+    }
+  ],
+  "departures_detail": [
+    {
+      "name": "Daniel Cook",
+      "function": "Finance",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Monica Wu",
+      "function": "Finance",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Chandani Shah",
+      "function": "Finance",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Jenny Bacon",
+      "function": "Finance",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 0
+    },
+    {
+      "name": "Farouk Hussein",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Garrett Shipp",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Jeremiah Jewkes",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Neha Vaidya",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Welsford Bishopric",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Will Spector",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Zac Adams",
+      "function": "Investment Team",
+      "last_seen": 2019,
+      "approx_departure_year": 2020,
+      "tenure_years": 0
+    },
+    {
+      "name": "Dan Stanko",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Genevieve Crawford",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Hampton Ike",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Ignacio de Lera",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Michael Ellis",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 0
+    },
+    {
+      "name": "Mo Gulamhusein",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Patrick Malanga",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Peter Cozzi",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Ryan Lee",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Sarbari Bhattacharjee",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 0
+    },
+    {
+      "name": "Stewart White",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 0
+    },
+    {
+      "name": "Will Dean",
+      "function": "Investment Team",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Joanne So",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 1
+    },
+    {
+      "name": "John Block",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 2
+    },
+    {
+      "name": "John Byers",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 0
+    },
+    {
+      "name": "Naznin Jahan",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 0
+    },
+    {
+      "name": "Will Montgomery",
+      "function": "Investment Team",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 0
+    },
+    {
+      "name": "Aaron Wen",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 2
+    },
+    {
+      "name": "Anna Ike",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 3
+    },
+    {
+      "name": "Dylan Young",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 0
+    },
+    {
+      "name": "Lalitha Cheruvu",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Margaret Meyo",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Rebecca Gu",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 1
+    },
+    {
+      "name": "Stephen Young",
+      "function": "Investment Team",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 3
+    },
+    {
+      "name": "Ankit Dhawan",
+      "function": "Operating Resources",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Bennett Nussbaum",
+      "function": "Operating Resources",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 2
+    },
+    {
+      "name": "Matt Witherell",
+      "function": "Operating Resources",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 2
+    },
+    {
+      "name": "Scott St. Clair",
+      "function": "Operating Resources",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 3
+    },
+    {
+      "name": "Steve Marino",
+      "function": "Other",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Eloisa Angeles",
+      "function": "Support",
+      "last_seen": 2020,
+      "approx_departure_year": 2021,
+      "tenure_years": 1
+    },
+    {
+      "name": "Jade Bollinger",
+      "function": "Support",
+      "last_seen": 2021,
+      "approx_departure_year": 2022,
+      "tenure_years": 2
+    },
+    {
+      "name": "Annie Loosle",
+      "function": "Support",
+      "last_seen": 2022,
+      "approx_departure_year": 2023,
+      "tenure_years": 3
+    }
+  ],
+  "tenure": [
+    {
+      "name": "Harv Barenz",
+      "function": "Business Development",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Jim Herrmann",
+      "function": "Business Development",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Junior Bryant",
+      "function": "Business Development",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Greg Hughes",
+      "function": "Executive Advisors",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Bryan Adams",
+      "function": "Executive Advisors",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Fariha Mirza",
+      "function": "Finance",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Siv Hok",
+      "function": "Finance",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Melody Yuan",
+      "function": "Finance",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Chandni Shah",
+      "function": "Finance",
+      "first_seen": 2021,
+      "last_seen": 2023,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Chandani Shah",
+      "function": "Finance",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Trang Nguyen",
+      "function": "Finance",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Daniel Cook",
+      "function": "Finance",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Jenny Bacon",
+      "function": "Finance",
+      "first_seen": 2022,
+      "last_seen": 2022,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Monica Wu",
+      "function": "Finance",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Alex Bryan",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Bill Conrad",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Bob Gay",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Chris Schulze",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Colin Phinisey",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "David Chung",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Gary Crittenden",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Greg Benson",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Hao Qin",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Holland Reynolds",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Jay Tabu",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Lance Taylor",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Les Brown",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Matt Roesch",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Neil White",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Nicole Ongko",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Pat Dugoni",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Phil Sampognaro",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Rich Lawson",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Steve Young",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Steven Leistner",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Thad Longson",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Anna Ike",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2022,
+      "tenure_years": 3,
+      "still_active": false
+    },
+    {
+      "name": "Gokula Gundamaraj",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Guneev Lamba",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Stephen Young",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2022,
+      "tenure_years": 3,
+      "still_active": false
+    },
+    {
+      "name": "Victor Rudo",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Aaron Wen",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2022,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "John Block",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2021,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Matthew Cox",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2023,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "William Dean",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2023,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Cathy Zheng",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Dale Chang",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Dan Pusack",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Dan Stanko",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Eunice Huang",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Genevieve Crawford",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Hampton Ike",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Ignacio de Lera",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Joanne So",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2021,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Keaton Shiveley",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Lalitha Cheruvu",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Margaret Meyo",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Mason Mohring",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Mo Gulamhusein",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Patrick Malanga",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Peter Cozzi",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Rebecca Gu",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2022,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Ryan Lee",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Sam Siegel",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Will Dean",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Zach Hunsaker",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Anna Ike Pope",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Drew Lezon",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Dylan Young",
+      "function": "Investment Team",
+      "first_seen": 2022,
+      "last_seen": 2022,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Farouk Hussein",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Garrett Shipp",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Jeremiah Jewkes",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "John Byers",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2021,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Jordan Hurd",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Julia Lee",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Justin Zhao",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Michael Ellis",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2020,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Naznin Jahan",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2021,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Neha Gupta",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Neha Vaidya",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Peter Anastasio",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Russell Uyeda",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Ryan Ohanesian",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Sarbari Bhattacharjee",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2020,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Stewart White",
+      "function": "Investment Team",
+      "first_seen": 2020,
+      "last_seen": 2020,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Welsford Bishopric",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Will Montgomery",
+      "function": "Investment Team",
+      "first_seen": 2021,
+      "last_seen": 2021,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Will Spector",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Yuhang Zhang",
+      "function": "Investment Team",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Zac Adams",
+      "function": "Investment Team",
+      "first_seen": 2019,
+      "last_seen": 2019,
+      "tenure_years": 0,
+      "still_active": false
+    },
+    {
+      "name": "Bob Pender",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Chad Clawson",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Chris Guinn",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Greg Caltabiano",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Richard Gros",
+      "function": "Operating Resources",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Scott St. Clair",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2022,
+      "tenure_years": 3,
+      "still_active": false
+    },
+    {
+      "name": "Bennett Nussbaum",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2021,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Brian Slobodow",
+      "function": "Operating Resources",
+      "first_seen": 2021,
+      "last_seen": 2023,
+      "tenure_years": 2,
+      "still_active": true
+    },
+    {
+      "name": "Matt Witherell",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2021,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Ankit Dhawan",
+      "function": "Operating Resources",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Eva Yin",
+      "function": "Other",
+      "first_seen": 2020,
+      "last_seen": 2023,
+      "tenure_years": 3,
+      "still_active": true
+    },
+    {
+      "name": "Steve Marino",
+      "function": "Other",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Elizabeth Washburn",
+      "function": "Other",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Leland Holdener",
+      "function": "Other",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Lindsay Sparks",
+      "function": "Other",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Lindsey Press",
+      "function": "Other",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Paul Weiskopf",
+      "function": "Other",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Jeannine Mancini",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Joy Hayame",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Krystal Delatorre",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Kurt Krieger",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Michelle Knox",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2023,
+      "tenure_years": 4,
+      "still_active": true
+    },
+    {
+      "name": "Annie Loosle",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2022,
+      "tenure_years": 3,
+      "still_active": false
+    },
+    {
+      "name": "Jade Bollinger",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2021,
+      "tenure_years": 2,
+      "still_active": false
+    },
+    {
+      "name": "Eloisa Angeles",
+      "function": "Support",
+      "first_seen": 2019,
+      "last_seen": 2020,
+      "tenure_years": 1,
+      "still_active": false
+    },
+    {
+      "name": "Jade Hostetler",
+      "function": "Support",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Lauren Connon",
+      "function": "Support",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Louise Husin",
+      "function": "Support",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Silver Rosales",
+      "function": "Support",
+      "first_seen": 2022,
+      "last_seen": 2023,
+      "tenure_years": 1,
+      "still_active": true
+    },
+    {
+      "name": "Katherine Dever",
+      "function": "Support",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Sara Kobzanets",
+      "function": "Support",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    },
+    {
+      "name": "Stephen Lewis",
+      "function": "Support",
+      "first_seen": 2023,
+      "last_seen": 2023,
+      "tenure_years": 0,
+      "still_active": true
+    }
+  ],
+  "raw_snapshots": [
+    {
+      "name": "Alex Bryan",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Ankit Dhawan",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Anna Ike",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Annie Loosle",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Bennett Nussbaum",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Bill Conrad",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Gay",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Pender",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chad Clawson",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chandani Shah",
+      "title": "Accountant",
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Guinn",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Schulze",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Phinisey",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Stanko",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Daniel Cook",
+      "title": "Senior Accountant",
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "David Chung",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Eloisa Angeles",
+      "title": "Receptionist and Administrative Assistant",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Fariha Mirza",
+      "title": "Controller",
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Farouk Hussein",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Garrett Shipp",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Gary Crittenden",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Genevieve Crawford",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Benson",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Caltabiano",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Hughes",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Hampton Ike",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Hao Qin",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Harv Barenz",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Holland Reynolds",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Ignacio de Lera",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jade Bollinger",
+      "title": "Compliance Counsel",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jay Tabu",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jeannine Mancini",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jeremiah Jewkes",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Herrmann",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "John Block",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Joy Hayame",
+      "title": "External Relations Manager",
+      "function": "Other",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Junior Bryant",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Krystal Delatorre",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Kurt Krieger",
+      "title": "Chief Legal Officer",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Lance Taylor",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Les Brown",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Roesch",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Witherell",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Michelle Knox",
+      "title": "Philanthropy Lead",
+      "function": "Support",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Mo Gulamhusein",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Monica Wu",
+      "title": "Senior Fund Accountant",
+      "function": "Finance",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Neha Vaidya",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Neil White",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Nicole Ongko",
+      "title": "Operations Coordinator",
+      "function": "Other",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Pat Dugoni",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Malanga",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Cozzi",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Phil Sampognaro",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Rich Lawson",
+      "title": "Chief Executive Officer and Co-Founder",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Ryan Lee",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Scott St. Clair",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Siv Hok",
+      "title": "Accounting Manager",
+      "function": "Other",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Stephen Young",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Marino",
+      "title": "Head of Investor Relations",
+      "function": "Other",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Young",
+      "title": "President and Co-Founder",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Steven Leistner",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Thad Longson",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Welsford Bishopric",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Will Dean",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Will Spector",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Zac Adams",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2019",
+      "tier": "html"
+    },
+    {
+      "name": "Aaron Wen",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Bryan",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Ankit Dhawan",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Anna Ike",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Annie Loosle",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Bennett Nussbaum",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Bill Conrad",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Gay",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Pender",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Chad Clawson",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Chandani Shah",
+      "title": "Accountant",
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Guinn",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Schulze",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Phinisey",
+      "title": "Head of Debt Capital Markets",
+      "function": "Other",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Stanko",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "David Chung",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Eloisa Angeles",
+      "title": "Receptionist and Administrative Assistant",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Eva Yin",
+      "title": "Senior Fund Accountant",
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Fariha Mirza",
+      "title": "Controller",
+      "function": "Finance",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Gary Crittenden",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Genevieve Crawford",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Gokula Gundamaraj",
+      "title": "Associate of Portfolio Valuation",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Benson",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Caltabiano",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Hughes",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Guneev Lamba",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Hampton Ike",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Hao Qin",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Harv Barenz",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Holland Reynolds",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Ignacio de Lera",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Jade Bollinger",
+      "title": "Compliance Counsel",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Jay Tabu",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Jeannine Mancini",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Herrmann",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Joanne So",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "John Block",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Joy Hayame",
+      "title": "Chief of Staff",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Junior Bryant",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Krystal Delatorre",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Kurt Krieger",
+      "title": "Chief Legal Officer",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Lance Taylor",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Les Brown",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Roesch",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Witherell",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Melody Yuan",
+      "title": "Corporate Accounting Manager",
+      "function": "Other",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michael Ellis",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Michelle Knox",
+      "title": "Philanthropy Lead",
+      "function": "Support",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Mo Gulamhusein",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Neil White",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Nicole Ongko",
+      "title": "Operations Manager",
+      "function": "Other",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Pat Dugoni",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Patrick Malanga",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Cozzi",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Phil Sampognaro",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Rich Lawson",
+      "title": "Chief Executive Officer and Co-Founder",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Richard Gros",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Ryan Lee",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Sarbari Bhattacharjee",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Scott St. Clair",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Siv Hok",
+      "title": "Accounting Manager",
+      "function": "Other",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Stephen Young",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Marino",
+      "title": "Head of Investor Relations",
+      "function": "Other",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Young",
+      "title": "President and Co-Founder",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Steven Leistner",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Stewart White",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Thad Longson",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Victor Rudo",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Will Dean",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2020",
+      "tier": "html"
+    },
+    {
+      "name": "Aaron Wen",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Bryan",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Anna Ike",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Annie Loosle",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Bennett Nussbaum",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Bill Conrad",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Gay",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Pender",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Slobodow",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Chad Clawson",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Chandni Shah",
+      "title": "Accountant",
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Guinn",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Schulze",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Phinisey",
+      "title": "Head of Debt Capital Markets",
+      "function": "Other",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "David Chung",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Eva Yin",
+      "title": "Senior Fund Accountant",
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Fariha Mirza",
+      "title": "Vice President of Finance",
+      "function": "Finance",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Gary Crittenden",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Gokula Gundamaraj",
+      "title": "Associate of Portfolio Valuation",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Benson",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Caltabiano",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Hughes",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Guneev Lamba",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Hao Qin",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Harv Barenz",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Holland Reynolds",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Jade Bollinger",
+      "title": "Compliance Counsel",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Jay Tabu",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Jeannine Mancini",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Herrmann",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Joanne So",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "John Block",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "John Byers",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Joy Hayame",
+      "title": "Chief of Staff",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Junior Bryant",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Krystal Delatorre",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Kurt Krieger",
+      "title": "Chief Legal Officer",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Lalitha Cheruvu",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Lance Taylor",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Les Brown",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Margaret Meyo",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Roesch",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Witherell",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Matthew Cox",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Melody Yuan",
+      "title": "Corporate Accounting Manager",
+      "function": "Other",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Michelle Knox",
+      "title": "Philanthropy Lead",
+      "function": "Support",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Naznin Jahan",
+      "title": "Associate \u2013 Investor Relations",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Neil White",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Nicole Ongko",
+      "title": "Director of Operations",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Pat Dugoni",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Phil Sampognaro",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Rebecca Gu",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Rich Lawson",
+      "title": "Chief Executive Officer and Co-Founder",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Richard Gros",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Scott St. Clair",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Siv Hok",
+      "title": "Accounting Manager",
+      "function": "Other",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Stephen Young",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Young",
+      "title": "President and Co-Founder",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Steven Leistner",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Thad Longson",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Victor Rudo",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Will Montgomery",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "William Dean",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2021",
+      "tier": "html"
+    },
+    {
+      "name": "Aaron Wen",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Bryan",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Anna Ike",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Annie Loosle",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Bill Conrad",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Gay",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Pender",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Slobodow",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Cathy Zheng",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Chad Clawson",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Chandni Shah",
+      "title": "Senior Accountant",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Guinn",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Schulze",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Phinisey",
+      "title": "Head of Debt Capital Markets",
+      "function": "Other",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Dale Chang",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Pusack",
+      "title": "Analyst",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "David Chung",
+      "title": "Partner and Co-Chief Investment Officer",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Dylan Young",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Eunice Huang",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Eva Yin",
+      "title": "Senior Fund Accountant",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Fariha Mirza",
+      "title": "Vice President of Finance",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Gary Crittenden",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Gokula Gundamaraj",
+      "title": "Senior Valuation Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Benson",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Caltabiano",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Hughes",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Guneev Lamba",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Hao Qin",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Harv Barenz",
+      "title": "Partner and Head of Business Development",
+      "function": "Business Development",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Holland Reynolds",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jade Hostetler",
+      "title": "Compliance Counsel",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jay Tabu",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jeannine Mancini",
+      "title": "Senior Executive Assistant",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jenny Bacon",
+      "title": "Finance \u2013  Part-Time",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Herrmann",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Joy Hayame",
+      "title": "Chief of Staff",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Junior Bryant",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Keaton Shiveley",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Krystal Delatorre",
+      "title": "Legal and Administrative Assistant",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Kurt Krieger",
+      "title": "Chief Legal Officer",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Lalitha Cheruvu",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Lance Taylor",
+      "title": "Partner and Chief Financial Officer",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Lauren Connon",
+      "title": "Receptionist",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Les Brown",
+      "title": "Partner, Founding Member, and Global Head of Investor Relations",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Louise Husin",
+      "title": "Chief Talent Officer",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Margaret Meyo",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Mason Mohring",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Roesch",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Matthew Cox",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Melody Yuan",
+      "title": "Management Company Controller",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Michelle Knox",
+      "title": "Philanthropy Lead",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Neil White",
+      "title": "Partner and President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Nicole Ongko",
+      "title": "Director of Operations",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Pat Dugoni",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Phil Sampognaro",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Rebecca Gu",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Rich Lawson",
+      "title": "Chief Executive Officer and Co-Founder",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Richard Gros",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Sam Siegel",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Scott St. Clair",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Silver Rosales",
+      "title": "Administrative Assistant",
+      "function": "Support",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Siv Hok",
+      "title": "Fund Controller",
+      "function": "Finance",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Stephen Young",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Young",
+      "title": "Chairman and Co-Founder",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Steven Leistner",
+      "title": "Partner and Co-Chief Investment Officer",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Thad Longson",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Trang Nguyen",
+      "title": NaN,
+      "function": "Other",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Victor Rudo",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "William Dean",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Zach Hunsaker",
+      "title": "Analyst",
+      "function": "Investment Team",
+      "year": "2022",
+      "tier": "html"
+    },
+    {
+      "name": "Alex Bryan",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Anna Ike Pope",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Bill Conrad",
+      "title": "Partner",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Gay",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Bob Pender",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Brian Slobodow",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Bryan Adams",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Cathy Zheng",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Chad Clawson",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Chandni Shah",
+      "title": "Senior Accountant",
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Guinn",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Chris Schulze",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Colin Phinisey",
+      "title": "Partner and Head of Debt Capital Markets",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Dale Chang",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Dan Pusack",
+      "title": "Analyst",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "David Chung",
+      "title": "Partner and Co-Chief Investment Officer",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Drew Lezon",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Elizabeth Washburn",
+      "title": "HR Generalist",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Eunice Huang",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Eva Yin",
+      "title": "Fund Accounting Manager",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Fariha Mirza",
+      "title": "Vice President of Finance",
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Gary Crittenden",
+      "title": "Executive Director",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Gokula Gundamaraj",
+      "title": "Senior Valuation Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Benson",
+      "title": "Co-Founder and Executive Director",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Caltabiano",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Greg Hughes",
+      "title": "Senior Advisor",
+      "function": "Executive Advisors",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Guneev Lamba",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Hao Qin",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Harv Barenz",
+      "title": "Partner and Head of Business Development",
+      "function": "Business Development",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Holland Reynolds",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jade Hostetler",
+      "title": "Compliance Counsel",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jay Tabu",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jeannine Mancini",
+      "title": "Senior Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jim Herrmann",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Jordan Hurd",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Joy Hayame",
+      "title": "Senior Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Julia Lee",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Junior Bryant",
+      "title": "Business Development",
+      "function": "Business Development",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Justin Zhao",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Katherine Dever",
+      "title": "Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Keaton Shiveley",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Krystal Delatorre",
+      "title": "Senior Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Kurt Krieger",
+      "title": "Chief Legal Officer",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Lance Taylor",
+      "title": "Partner and Chief Financial Officer",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Lauren Connon",
+      "title": "Receptionist",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Leland Holdener",
+      "title": "Operating Manager",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Les Brown",
+      "title": "Partner of HGGC and Founder of Operational Resource Group",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Lindsay Sparks",
+      "title": "Operating Advisor",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Lindsey Press",
+      "title": "Global Head of Investor Relations",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Louise Husin",
+      "title": "Chief Talent Officer",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Mason Mohring",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Matt Roesch",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Matthew Cox",
+      "title": "Senior Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Melody Yuan",
+      "title": "Management Company Controller",
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Michelle Knox",
+      "title": "Philanthropy Lead",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Neha Gupta",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Neil White",
+      "title": "Partner and President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Nicole Ongko",
+      "title": "Director of Operations",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Pat Dugoni",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Paul Weiskopf",
+      "title": "Operating Advisor",
+      "function": "Other",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Peter Anastasio",
+      "title": "Operating Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Phil Sampognaro",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Rich Lawson",
+      "title": "Chief Executive Officer and Co-Founder",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Richard Gros",
+      "title": "Operating Partner",
+      "function": "Operating Resources",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Russell Uyeda",
+      "title": "Operating Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Ryan Ohanesian",
+      "title": "Analyst",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Sam Siegel",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Sara Kobzanets",
+      "title": "Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Silver Rosales",
+      "title": "Executive Assistant",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Siv Hok",
+      "title": "Fund Controller",
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Stephen Lewis",
+      "title": "Administrative Manager",
+      "function": "Support",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Steve Young",
+      "title": "Chairman and Co-Founder",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Steven Leistner",
+      "title": "Partner and Co-Chief Investment Officer",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Thad Longson",
+      "title": "Principal",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Trang Nguyen",
+      "title": "Fund Accountant",
+      "function": "Finance",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Victor Rudo",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "William Dean",
+      "title": "Vice President",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Yuhang Zhang",
+      "title": "Associate",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    },
+    {
+      "name": "Zach Hunsaker",
+      "title": "Analyst",
+      "function": "Investment Team",
+      "year": "2023",
+      "tier": "html"
+    }
+  ]
+}
