@@ -170,17 +170,46 @@ FIRMS = {
     },
 
     "flexpoint-ford": {
-        "configured": False,
+        "configured": True,
         "firm_name":  "Flexpoint Ford",
         "firm_slug":  "flexpoint-ford",
         "hq":         "Chicago, IL",
         "fund_size":  "~$3.5B",
         "focus":      "Financial Services / Healthcare",
-        "start_year": 2010,
+        "start_year": 2015,
         "domain":     "flexpointford.com",
         "output_file": "/tmp/flexpoint-ford_human_capital.json",
-        "coverage_note": "WP REST API discovered + HTML team page at flexpointford.com/team/ (2015–2026). Ready to configure.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2015–2016 via flexpointford.com/team/ (30 snapshots, ~30 people/snap). "
+            "Cards are <div class='item {location} {sector}' data-sort-name='...'> with "
+            "<p class='name'> and <p class='job-title'>. Split on data-sort-name attr. "
+            "Location/sector tags (Chicago, New-York, financial, healthcare, credit) appear as "
+            "CSS classes on card div — useful for future filter work."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":    "flexpointford.com/team/",
+                "extractor":   "data_attr_split",
+                "function_map": {},
+                "split_attr":  "data-sort-name",
+                "name_class":  "name",
+                "title_class": "job-title",
+                "title_function_map": {
+                    r"chief executive|ceo":                                         "Leadership",
+                    r"chief financial|chief operating|chief compliance|controller":  "Finance & Operations",
+                    r"general counsel|legal":                                        "Legal",
+                    r"managing director|partner":                                    "Investment Team",
+                    r"principal|vice president":                                     "Investment Team",
+                    r"associate|analyst":                                            "Investment Team",
+                    r"operating":                                                    "Operating Resources",
+                },
+            }
+        ],
+        "function_order": [
+            "Leadership", "Investment Team", "Finance & Operations",
+            "Operating Resources", "Legal", "Other"
+        ],
     },
 
     "shore-capital-partners": {
@@ -254,17 +283,48 @@ FIRMS = {
     },
 
     "harvest-partners": {
-        "configured": False,
+        "configured": True,
         "firm_name":  "Harvest Partners",
         "firm_slug":  "harvest-partners",
         "hq":         "New York, NY",
         "fund_size":  "~$2.5B",
         "focus":      "Diversified",
-        "start_year": 2010,
+        "start_year": 2023,
         "domain":     "harvestpartners.com",
         "output_file": "/tmp/harvest-partners_human_capital.json",
-        "coverage_note": "WP REST API discovered (wp-json/wp/v2/people). Ready to configure.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 2 (HTML): 2023–2025 via harvestpartners.com/people/ (21 snapshots, ~110 people/snap). "
+            "Cards are <a class='team-member'> tags with data-group attribute encoding function directly "
+            "(private-equity, structured-capital, credit-and-capital-markets, ascend, "
+            "investor-relations, operations-and-administration, portfolio-support-group). "
+            "Name in <span class='name'>, title in <span class='position'>."
+        ),
+        "api_sources": [],
+        "html_sources": [
+            {
+                "base_url":     "harvestpartners.com/people/",
+                "extractor":    "anchor_team_card",
+                "function_map": {},
+                "wrapper_class": "team-member",
+                "name_class":    "name",
+                "title_class":   "position",
+                "group_attr":    "data-group",
+                "group_function_map": {
+                    "private-equity":                "Private Equity",
+                    "structured-capital":            "Structured Capital",
+                    "credit-and-capital-markets":    "Credit & Capital Markets",
+                    "ascend":                        "Ascend",
+                    "investor-relations":            "Investor Relations",
+                    "operations-and-administration": "Operations & Administration",
+                    "portfolio-support-group":       "Portfolio Support",
+                },
+            }
+        ],
+        "function_order": [
+            "Private Equity", "Structured Capital", "Credit & Capital Markets",
+            "Ascend", "Investor Relations", "Portfolio Support",
+            "Operations & Administration", "Other"
+        ],
     },
 
     "ridgemont-equity-partners": {
@@ -421,7 +481,7 @@ FIRMS = {
     },
 
     "thomas-h-lee-partners": {
-        "configured": False,
+        "configured": True,
         "firm_name":  "Thomas H. Lee Partners",
         "firm_slug":  "thomas-h-lee-partners",
         "hq":         "Boston, MA",
@@ -430,8 +490,44 @@ FIRMS = {
         "start_year": 2023,
         "domain":     "thl.com",
         "output_file": "/tmp/thomas-h-lee-partners_human_capital.json",
-        "coverage_note": "HTML team page at www.thl.com/people/ — 11 snapshots, 2023–2026. Limited but usable. Needs extractor config.",
-        "api_sources": [], "html_sources": [], "function_order": [],
+        "coverage_note": (
+            "Tier 1 (WP REST API): 2023 via thl.com/wp-json/wp/v2/people (one batch snapshot, ~50+ people). "
+            "Name at title.rendered; title at acf.bio_facts_feature.position. "
+            "department taxonomy IDs present but not resolved — function inferred from title instead. "
+            "HTML /people/ page is JS-rendered (React), no useful static snapshots. "
+            "Limited historical depth: Wayback only captured the API once (Feb 2023)."
+        ),
+        "api_sources": [
+            {
+                "domain":   "thl.com",
+                "endpoint": "wp-json/wp/v2/people",
+                "field_map": {
+                    "name_full": "title.rendered",
+                    "title":     "acf.bio_facts_feature.position",
+                },
+                "function_map": {},
+                "title_function_map": {
+                    r"chief executive|ceo|co-ceo":                              "Leadership",
+                    r"chief financial|chief operating|chief compliance|controller|cfo|coo": "Finance & Operations",
+                    r"general counsel|legal|compliance":                        "Legal & Compliance",
+                    r"managing director|partner|co-head|head of":               "Investment Team",
+                    r"principal|vice president":                                 "Investment Team",
+                    r"associate|analyst":                                        "Investment Team",
+                    r"operating partner|operating advisor":                      "Operating Partners",
+                    r"investor relations|business development":                  "Investor Relations",
+                    r"human capital|talent|people":                              "Human Capital",
+                    r"senior advisor|executive advisor|advisor":                 "Senior Advisors",
+                    r"assistant|coordinator|receptionist|office|admin":          "Administration",
+                },
+            }
+        ],
+        "html_sources": [],
+        "function_order": [
+            "Leadership", "Investment Team", "Operating Partners",
+            "Finance & Operations", "Legal & Compliance",
+            "Investor Relations", "Human Capital", "Senior Advisors",
+            "Administration", "Other"
+        ],
     },
 
     "abry-partners": {

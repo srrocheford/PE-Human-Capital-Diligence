@@ -296,12 +296,115 @@ def _infer_function_from_title(title: str, title_function_map: dict | None) -> s
     return "Other"
 
 
+def extractor_data_attr_split(html: str, function_map: dict,
+                               title_function_map: dict | None = None,
+                               split_attr: str = "data-sort-name",
+                               name_class: str = "name",
+                               title_class: str = "job-title") -> list[dict]:
+    """
+    Flexpoint Ford-style: person cards are <div> tags with a data-* attribute
+    (e.g. data-sort-name="Donald Edwards"). Cards may contain nested divs that
+    break naive non-greedy matching, so we split the HTML on the opening tag
+    and parse each chunk instead.
+
+      <div class="item Chicago financial" data-sort-name="Donald J. Edwards">
+        <div class="img-box"><img .../></div>
+        <p class="name">Donald J. Edwards</p>
+        <p class="job-title">Chief Executive Officer</p>
+      </div>
+    """
+    chunks = re.split(
+        r'<div[^>]+' + re.escape(split_attr) + r'="[^"]*"[^>]*>',
+        html
+    )
+    people = []
+    for chunk in chunks[1:]:  # first chunk is pre-first-card content
+        nm = re.search(r'class="' + re.escape(name_class) + r'"\s*>\s*([^<]+?)\s*<', chunk)
+        tt = re.search(r'class="' + re.escape(title_class) + r'"\s*>\s*([^<]+?)\s*<', chunk)
+        if not nm:
+            continue
+        raw_name  = nm.group(1).strip()
+        raw_title = tt.group(1).strip() if tt else ""
+        name = normalize_name(raw_name)
+        if not name or len(name) < 3:
+            continue
+        func = _infer_function_from_title(raw_title, title_function_map)
+        people.append({
+            "name":     name,
+            "title":    raw_title or None,
+            "function": func,
+            "tier":     "html",
+        })
+    return people
+
+
+def extractor_anchor_team_card(html: str, function_map: dict,
+                                title_function_map: dict | None = None,
+                                wrapper_class: str = "team-member",
+                                name_class: str = "name",
+                                title_class: str = "position",
+                                group_attr: str | None = None,
+                                group_function_map: dict | None = None) -> list[dict]:
+    """
+    Harvest Partners-style: each person is an <a> tag (not a div) with a
+    wrapper class, optional data-group attribute for function grouping, and
+    inner spans for name and title.
+
+      <a class="team-member outline-on-focus-green"
+         data-group="private-equity"
+         data-search-name="Doug Campbell">
+        <span class="name">Doug Campbell</span>
+        <span class="position">Partner</span>
+      </a>
+
+    If group_attr and group_function_map are supplied, function is read from
+    the data attribute directly (more reliable than title inference).
+    """
+    # Capture opening-tag attributes AND inner content together
+    card_pattern = (
+        r'<a([^>]*class="[^"]*' + re.escape(wrapper_class) + r'[^"]*"[^>]*)>(.*?)</a>'
+    )
+    name_pat  = r'class="[^"]*' + re.escape(name_class)  + r'[^"]*"[^>]*>\s*([^<]+?)\s*<'
+    title_pat = r'class="[^"]*' + re.escape(title_class) + r'[^"]*"[^>]*>\s*([^<]*?)\s*<'
+
+    people = []
+    for attrs, content in re.findall(card_pattern, html, re.DOTALL):
+        nm = re.search(name_pat,  content, re.DOTALL)
+        if not nm:
+            continue
+        tt = re.search(title_pat, content, re.DOTALL)
+        raw_name  = nm.group(1).strip()
+        raw_title = tt.group(1).strip() if tt else ""
+        name = normalize_name(raw_name)
+        if not name or len(name) < 3:
+            continue
+
+        # Prefer data-group attribute for function if configured
+        func = "Other"
+        if group_attr and group_function_map:
+            grp_m = re.search(re.escape(group_attr) + r'="([^"]+)"', attrs)
+            if grp_m:
+                func = group_function_map.get(grp_m.group(1), "Other")
+        if func == "Other":
+            func = _infer_function_from_title(raw_title, title_function_map)
+
+        people.append({
+            "name":     name,
+            "title":    raw_title or None,
+            "function": func,
+            "tier":     "html",
+        })
+    return people
+
+
 # Registry — add new extractor functions here
 EXTRACTORS = {
     "li_class_name_title":   extractor_li_class_name_title,
     "option_value_slug":     extractor_option_value_slug,
     "article_h3_paragraph":  extractor_article_h3_paragraph,
     "div_name_title":        extractor_div_name_title,
+    "data_attr_split":       extractor_data_attr_split,
+    "anchor_team_card":      extractor_anchor_team_card,
 }
 
 
@@ -471,6 +574,7 @@ def extract_from_api(timestamp: str, original_url: str, api_source: dict) -> lis
         func = (
             function_map.get(role_slug)
             or function_map.get(role_name)
+            or _infer_function_from_title(title, api_source.get("title_function_map"))
             or "Other"
         )
 
@@ -553,7 +657,8 @@ def extract_from_html(timestamp: str, original_url: str, html_source: dict) -> l
     # config keys the new extractors accept (title_function_map, class overrides)
     kwargs = {}
     for key in ("title_function_map", "article_class", "heading_class",
-                "wrapper_class", "name_class", "title_class"):
+                "wrapper_class", "name_class", "title_class",
+                "split_attr", "group_attr", "group_function_map"):
         if key in html_source:
             kwargs[key] = html_source[key]
 
