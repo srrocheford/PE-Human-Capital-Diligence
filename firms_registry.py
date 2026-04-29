@@ -73,6 +73,12 @@ FIRMS = {
             "Investment Partners", "Associates", "Operating Resources",
             "Executive Advisors", "Corporate Resources", "Support Team", "Other",
         ],
+        "fund_history_manual": [
+            {"fund_name": "Water Street Fund I",   "size_mm": 650,  "close_year": 2012},
+            {"fund_name": "Water Street Fund II",  "size_mm": 1000, "close_year": 2016},
+            {"fund_name": "Water Street Fund III", "size_mm": 1300, "close_year": 2020},
+            {"fund_name": "Water Street Fund IV",  "size_mm": 1500, "close_year": 2023},
+        ],
     },
 
     "linden-capital-partners": {
@@ -123,6 +129,11 @@ FIRMS = {
             "Investment Team", "Human Capital", "Finance",
             "Information Technology", "Investor Relations", "Portfolio Operations", "Other",
         ],
+        "fund_history_manual": [
+            {"fund_name": "Linden Capital Partners III", "size_mm": 575,  "close_year": 2015},
+            {"fund_name": "Linden Capital Partners IV",  "size_mm": 1100, "close_year": 2019},
+            {"fund_name": "Linden Capital Partners V",   "size_mm": 1700, "close_year": 2022},
+        ],
     },
 
 
@@ -167,6 +178,12 @@ FIRMS = {
         "function_order": [
             "Investment Team", "Finance", "Legal & Compliance", "Operations", "Other"
         ],
+        "fund_history_manual": [
+            {"fund_name": "GTCR Fund X",    "size_mm": 2750,  "close_year": 2011},
+            {"fund_name": "GTCR Fund XI",   "size_mm": 3850,  "close_year": 2016},
+            {"fund_name": "GTCR Fund XII",  "size_mm": 5250,  "close_year": 2019},
+            {"fund_name": "GTCR Fund XIII", "size_mm": 11500, "close_year": 2023},
+        ],
     },
 
     "flexpoint-ford": {
@@ -209,6 +226,11 @@ FIRMS = {
         "function_order": [
             "Leadership", "Investment Team", "Finance & Operations",
             "Operating Resources", "Legal", "Other"
+        ],
+        "fund_history_manual": [
+            {"fund_name": "Flexpoint Ford Fund II",  "size_mm": 850,  "close_year": 2012},
+            {"fund_name": "Flexpoint Ford Fund III", "size_mm": 2000, "close_year": 2016},
+            {"fund_name": "Flexpoint Ford Fund IV",  "size_mm": 3500, "close_year": 2021},
         ],
     },
 
@@ -325,6 +347,10 @@ FIRMS = {
             "Ascend", "Investor Relations", "Portfolio Support",
             "Operations & Administration", "Other"
         ],
+        "fund_history_manual": [
+            {"fund_name": "Harvest Partners Fund VIII", "size_mm": 2150, "close_year": 2019},
+            {"fund_name": "Harvest Partners Fund IX",   "size_mm": 2500, "close_year": 2022},
+        ],
     },
 
     "ridgemont-equity-partners": {
@@ -379,6 +405,10 @@ FIRMS = {
         "function_order": [
             "Investment Team", "Operating Resources", "Finance",
             "Executive Advisors", "Support", "Other",
+        ],
+        "fund_history_manual": [
+            {"fund_name": "Audax Private Equity Fund V",  "size_mm": 2000, "close_year": 2016},
+            {"fund_name": "Audax Private Equity Fund VI", "size_mm": 3500, "close_year": 2019},
         ],
     },
 
@@ -528,6 +558,9 @@ FIRMS = {
             "Investor Relations", "Human Capital", "Senior Advisors",
             "Administration", "Other"
         ],
+        "fund_history_manual": [
+            {"fund_name": "THL Fund IX", "size_mm": 5000, "close_year": 2022},
+        ],
     },
 
     "abry-partners": {
@@ -669,6 +702,11 @@ FIRMS = {
             "Investment Team", "Operating Resources", "Finance",
             "Business Development", "Executive Advisors", "Support", "Other",
         ],
+        "fund_history_manual": [
+            {"fund_name": "HGGC Fund I",   "size_mm": 680,  "close_year": 2013},
+            {"fund_name": "HGGC Fund II",  "size_mm": 1300, "close_year": 2016},
+            {"fund_name": "HGGC Fund III", "size_mm": 2000, "close_year": 2019},
+        ],
     },
 
     "huron-capital-partners": {
@@ -762,6 +800,11 @@ FIRMS = {
         "function_order": [
             "Investment Team", "Operating Resources", "Finance",
             "Executive Advisors", "Support", "Other",
+        ],
+        "fund_history_manual": [
+            {"fund_name": "LLR Partners IV", "size_mm": 1000, "close_year": 2015},
+            {"fund_name": "LLR Partners V",  "size_mm": 1500, "close_year": 2019},
+            {"fund_name": "LLR Partners VI", "size_mm": 2300, "close_year": 2022},
         ],
     },
 

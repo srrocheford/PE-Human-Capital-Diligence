@@ -822,11 +822,269 @@ def promotion_summary(promotions_df: pd.DataFrame) -> list[dict]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# FUND HISTORY: Press release scraper
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Patterns for fund close announcements in press release text
+_FUND_CLOSE_PATTERNS = [
+    # "closes Fund X at $1.5 billion"
+    re.compile(
+        r'closes?\s+(?:its\s+)?([A-Z][^$\n<]{3,80}?)'
+        r'\s+(?:at|with|on)\s+\$\s*([\d,]+(?:\.\d+)?)\s*(billion|million)',
+        re.IGNORECASE
+    ),
+    # "raises $1.5 billion for Fund X"
+    re.compile(
+        r'raises?\s+\$\s*([\d,]+(?:\.\d+)?)\s*(billion|million)'
+        r'\s+(?:for|in)\s+(?:its\s+)?([A-Z][^.\n<]{3,80})',
+        re.IGNORECASE
+    ),
+    # "Fund X closes with $1.5 billion in commitments"
+    re.compile(
+        r'([A-Z][^$\n<]{3,60}?)\s+closes?\s+with\s+\$\s*([\d,]+(?:\.\d+)?)\s*(billion|million)',
+        re.IGNORECASE
+    ),
+]
+
+_DATE_PATTERN = re.compile(
+    r'(?:January|February|March|April|May|June|July|August|'
+    r'September|October|November|December)\s+\d{1,2},?\s+\d{4}',
+    re.IGNORECASE
+)
+
+_YEAR_PATTERN = re.compile(r'\b(20\d{2})\b')
+
+
+def _parse_size_mm(amount_str: str, unit: str) -> int:
+    """Convert '$1.5 billion' → 1500, '$750 million' → 750."""
+    amount = float(amount_str.replace(",", ""))
+    unit = unit.lower()
+    return int(amount * 1000) if "billion" in unit else int(amount)
+
+
+def _extract_fund_closes(html: str, firm_name: str) -> list[dict]:
+    """
+    Extract fund close announcements from a press release page.
+    Returns list of {fund_name, size_mm, close_year, close_date, source}.
+    """
+    # Strip HTML tags for cleaner text matching
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'&[a-z]+;', ' ', text)   # decode entities roughly
+    text = re.sub(r'\s+', ' ', text)
+
+    results = []
+    seen = set()
+
+    for pat in _FUND_CLOSE_PATTERNS:
+        for m in pat.finditer(text):
+            groups = m.groups()
+            # Different patterns place fund_name/amount/unit in different group positions
+            if len(groups) == 3:
+                if pat.pattern.startswith(r'raises?'):
+                    # raises $X Y for Fund Z
+                    amount_str, unit, fund_name = groups
+                else:
+                    # closes Fund Z at $X Y  OR  Fund Z closes with $X Y
+                    fund_name, amount_str, unit = groups
+            else:
+                continue
+
+            fund_name = fund_name.strip().rstrip('.,;')
+            # Skip if fund_name is suspiciously short or just noise
+            if len(fund_name) < 4 or fund_name.lower().startswith(('the ', 'its ', 'a ')):
+                fund_name = firm_name + " Fund"
+
+            size_mm = _parse_size_mm(amount_str, unit)
+            if size_mm < 50:   # less than $50M is likely a mistake
+                continue
+
+            # Find the closest date in surrounding context
+            pos = m.start()
+            context = text[max(0, pos - 600): pos + 600]
+            date_m = _DATE_PATTERN.search(context)
+            year_m = _YEAR_PATTERN.search(context)
+
+            close_date = date_m.group(0) if date_m else None
+            close_year = (
+                int(re.search(r'\d{4}', close_date).group())
+                if close_date
+                else (int(year_m.group(1)) if year_m else None)
+            )
+
+            key = (fund_name[:40].lower(), size_mm)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            results.append({
+                "fund_name":  fund_name,
+                "size_mm":    size_mm,
+                "close_year": close_year,
+                "close_date": close_date,
+                "source":     "scraped",
+            })
+
+    return results
+
+
+def scrape_fund_history(cfg: dict) -> list[dict]:
+    """
+    Search for fund close press releases for a firm.
+    Checks three sources:
+      1. Firm's own Wayback-archived news/press pages
+      2. PR Newswire archives mentioning the firm
+      3. BusinessWire archives mentioning the firm
+
+    Returns a deduplicated list of {fund_name, size_mm, close_year, close_date}
+    sorted oldest-first, merged with any manually curated entries from the registry.
+    """
+    domain    = cfg["domain"]
+    firm_name = cfg["firm_name"]
+    firm_slug = cfg["firm_slug"]
+    print(f"\n[Fund History] Scraping press releases for {firm_name}...")
+
+    all_finds: list[dict] = []
+
+    # ── 1. Firm's own news/press pages ────────────────────────────────────────
+    news_slugs = ["news", "press-releases", "press", "media",
+                  "news-and-events", "newsroom", "about/news"]
+    for slug in news_slugs:
+        rows = []
+        try:
+            r = requests.get(CDX_API, params={
+                "url": f"{domain}/{slug}/",
+                "output": "json",
+                "fl": "timestamp,original,statuscode",
+                "filter": "statuscode:200",
+                "limit": 10,
+                "collapse": "year",   # one snapshot per year
+            }, timeout=30)
+            rows = r.json()[1:] if r.text.strip() else []
+        except Exception:
+            pass
+
+        for ts, orig, _ in rows[:4]:   # max 4 snapshots per news slug
+            html = fetch_html(ts, orig)
+            if html and len(html) > 3000:
+                found = _extract_fund_closes(html, firm_name)
+                if found:
+                    print(f"  Found {len(found)} fund close(s) on {orig[:50]}")
+                all_finds.extend(found)
+            time.sleep(0.8)
+
+    # ── 2. PR Newswire archives ───────────────────────────────────────────────
+    for news_domain, url_pattern in [
+        ("prnewswire.com",   f"prnewswire.com/news-releases/*{firm_slug}*"),
+        ("businesswire.com", f"businesswire.com/news/*{firm_slug}*"),
+        ("globenewswire.com",f"globenewswire.com/news-release/*{firm_slug}*"),
+    ]:
+        rows = []
+        try:
+            r = requests.get(CDX_API, params={
+                "url":    url_pattern,
+                "output": "json",
+                "fl":     "timestamp,original,statuscode",
+                "filter": "statuscode:200",
+                "limit":  15,
+            }, timeout=30)
+            rows = r.json()[1:] if r.text.strip() else []
+        except Exception:
+            pass
+
+        for ts, orig, _ in rows:
+            html = fetch_html(ts, orig)
+            if html and len(html) > 2000:
+                found = _extract_fund_closes(html, firm_name)
+                if found:
+                    print(f"  Found {len(found)} fund close(s) on {news_domain}: {orig[50:90]}")
+                all_finds.extend(found)
+            time.sleep(0.8)
+
+    # ── 3. Merge with manual registry entries, deduplicate ────────────────────
+    manual = cfg.get("fund_history_manual", [])
+    for entry in manual:
+        entry["source"] = "manual"
+    all_finds.extend(manual)
+
+    # Deduplicate: prefer manual over scraped; prefer larger size_mm on tie
+    seen: dict[tuple, dict] = {}
+    for entry in all_finds:
+        key = (
+            entry.get("close_year"),
+            round(entry.get("size_mm", 0), -2),   # round to nearest $100M
+        )
+        existing = seen.get(key)
+        if not existing:
+            seen[key] = entry
+        elif entry.get("source") == "manual":
+            seen[key] = entry   # manual always wins
+
+    results = sorted(seen.values(), key=lambda x: x.get("close_year") or 9999)
+    print(f"  Total fund closes found: {len(results)}")
+    return results
+
+
+def compute_fund_size_per_head(hc_rows: list[dict],
+                                fund_history: list[dict]) -> list[dict]:
+    """
+    For each year in headcount data, find the most recently closed fund
+    as of that year and compute fund_size_mm / investment_team_headcount.
+
+    Returns list of {year, fund_name, fund_size_mm, investment_team_hc,
+                      fund_size_per_head_mm} sorted by year.
+    """
+    if not fund_history:
+        return []
+
+    # Build lookup: year → most recent fund as of that year
+    closed_funds = [f for f in fund_history if f.get("close_year")]
+    if not closed_funds:
+        return []
+
+    rows = []
+    for hc in hc_rows:
+        year = hc["year"]
+        # Most recent fund closed on or before this year
+        eligible = [f for f in closed_funds if f["close_year"] <= year]
+        if not eligible:
+            continue
+        fund = max(eligible, key=lambda f: f["close_year"])
+
+        # Investment team headcount = sum of investment-related functions
+        invest_hc = sum(
+            v for k, v in hc.items()
+            if k not in ("year", "total")
+            and any(kw in str(k).lower() for kw in
+                    ("investment", "private equity", "deal", "principal",
+                     "associate", "partner", "vice president"))
+        )
+        # Fallback to total if no investment-specific functions tagged
+        invest_hc = invest_hc or hc.get("total", 0)
+
+        if invest_hc == 0:
+            continue
+
+        rows.append({
+            "year":                  year,
+            "fund_name":             fund["fund_name"],
+            "fund_size_mm":          fund["size_mm"],
+            "investment_team_hc":    invest_hc,
+            "fund_size_per_head_mm": round(fund["size_mm"] / invest_hc, 1),
+        })
+
+    return rows
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # OUTPUT: JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_json(cfg, raw_df, hc_rows, departures_df, tenure_df,
-               turnover_rows, promotions_df, promo_summary_rows, output_path):
+               turnover_rows, promotions_df, promo_summary_rows, output_path,
+               fund_history: list | None = None):
+
+    fund_history = fund_history or cfg.get("fund_history_manual", [])
+    fund_size_per_head = compute_fund_size_per_head(hc_rows, fund_history)
 
     output = {
         "firm":              cfg["firm_name"],
@@ -841,10 +1099,12 @@ def build_json(cfg, raw_df, hc_rows, departures_df, tenure_df,
             "total_departures": len(departures_df),
             "total_promotions": len(promotions_df),
         },
-        "headcount_by_year":  hc_rows,
-        "turnover_metrics":   turnover_rows,
-        "promotions_detail":  promotions_df.to_dict(orient="records") if len(promotions_df) > 0 else [],
-        "promotions_summary": promo_summary_rows,
+        "headcount_by_year":      hc_rows,
+        "fund_history":           fund_history,
+        "fund_size_per_head":     fund_size_per_head,
+        "turnover_metrics":       turnover_rows,
+        "promotions_detail":      promotions_df.to_dict(orient="records") if len(promotions_df) > 0 else [],
+        "promotions_summary":     promo_summary_rows,
         "departures_detail":  (
             departures_df.sort_values(["function", "approx_departure_year"])
                          .to_dict(orient="records") if len(departures_df) > 0 else []

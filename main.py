@@ -22,7 +22,7 @@ from fastapi import FastAPI, BackgroundTasks, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from firms_registry import get_firm, list_firms
-from pe_scraper_general import run as run_scraper
+from pe_scraper_general import run as run_scraper, scrape_fund_history
 
 # ─────────────────────────────────────────────────────────────────────────────
 # APP SETUP
@@ -244,3 +244,83 @@ def get_firm_data(firm_slug: str):
             detail=f"No scraped data found for '{firm_slug}'. Run POST /scrape/{firm_slug} first."
         )
     return data
+
+
+@app.get("/fund-history/{firm_slug}")
+def get_fund_history(firm_slug: str):
+    """
+    Return the manually curated fund history for a firm from the registry.
+    Includes fund_size_per_head if headcount data is already cached on GitHub.
+    Does NOT trigger a new press-release scrape (use POST /scrape-fund-history/{firm_slug} for that).
+    """
+    cfg = get_firm(firm_slug)
+    if not cfg:
+        raise HTTPException(status_code=404, detail=f"Firm '{firm_slug}' not in registry.")
+
+    fund_history = cfg.get("fund_history_manual", [])
+
+    # Attempt to enrich with cached headcount data for fund_size_per_head calc
+    from pe_scraper_general import compute_fund_size_per_head
+    fund_size_per_head = []
+    filename = f"{firm_slug}_human_capital.json"
+    cached = fetch_from_github(filename)
+    if cached and fund_history:
+        hc_rows = cached.get("headcount_by_year", [])
+        fund_size_per_head = compute_fund_size_per_head(hc_rows, fund_history)
+
+    return {
+        "firm_slug":          firm_slug,
+        "firm_name":          cfg["firm_name"],
+        "fund_history":       fund_history,
+        "fund_size_per_head": fund_size_per_head,
+    }
+
+
+def _do_scrape_fund_history(job_id: str, firm_slug: str) -> None:
+    """Background task: scrapes press releases for fund close data."""
+    jobs[job_id]["status"] = "running"
+    jobs[job_id]["started_at"] = datetime.now(timezone.utc).isoformat()
+    cfg = get_firm(firm_slug)
+    try:
+        results = scrape_fund_history(cfg)
+        jobs[job_id].update({
+            "status":       "done",
+            "finished_at":  datetime.now(timezone.utc).isoformat(),
+            "fund_history": results,
+            "count":        len(results),
+        })
+    except Exception as e:
+        jobs[job_id].update({
+            "status":      "failed",
+            "finished_at": datetime.now(timezone.utc).isoformat(),
+            "error":       str(e),
+        })
+
+
+@app.post("/scrape-fund-history/{firm_slug}")
+def trigger_fund_history_scrape(firm_slug: str, background_tasks: BackgroundTasks):
+    """
+    Kick off a press-release scrape to auto-discover fund close dates and sizes.
+    Searches the firm's own Wayback-archived news pages + PR Newswire/BusinessWire.
+    Returns a job_id — poll GET /jobs/{job_id} for results (typically 1–3 min).
+    """
+    cfg = get_firm(firm_slug)
+    if not cfg:
+        raise HTTPException(status_code=404, detail=f"Firm '{firm_slug}' not in registry.")
+
+    job_id = str(uuid.uuid4())[:8]
+    jobs[job_id] = {
+        "job_id":    job_id,
+        "firm_slug": firm_slug,
+        "firm_name": cfg["firm_name"],
+        "status":    "queued",
+        "type":      "fund_history",
+        "queued_at": datetime.now(timezone.utc).isoformat(),
+    }
+    background_tasks.add_task(_do_scrape_fund_history, job_id, firm_slug)
+    return {
+        "job_id":   job_id,
+        "status":   "queued",
+        "poll_url": f"/jobs/{job_id}",
+        "message":  "Fund history scrape started. Poll /jobs/{job_id} for results.",
+    }
