@@ -2,7 +2,7 @@
   "firm": "HGGC",
   "firm_slug": "hggc",
   "coverage_note": "Tier 2 (HTML): 2013\u20132026 via www.hggc.com/team/ (161 snapshots). Flat team list \u2014 function inferred from title keywords. No JSON API available.",
-  "generated_at": "2026-04-29T15:55:56Z",
+  "generated_at": "2026-04-29T18:14:01Z",
   "years_covered": [
     2019,
     2020,
@@ -74,6 +74,60 @@
       "Support": 12,
       "Other": 6,
       "total": 79
+    }
+  ],
+  "fund_history": [
+    {
+      "fund_name": "HGGC Fund I",
+      "size_mm": 680,
+      "close_year": 2013
+    },
+    {
+      "fund_name": "HGGC Fund II",
+      "size_mm": 1300,
+      "close_year": 2016
+    },
+    {
+      "fund_name": "HGGC Fund III",
+      "size_mm": 2000,
+      "close_year": 2019
+    }
+  ],
+  "fund_size_per_head": [
+    {
+      "year": 2019,
+      "fund_name": "HGGC Fund III",
+      "fund_size_mm": 2000,
+      "investment_team_hc": 40,
+      "fund_size_per_head_mm": 50.0
+    },
+    {
+      "year": 2020,
+      "fund_name": "HGGC Fund III",
+      "fund_size_mm": 2000,
+      "investment_team_hc": 40,
+      "fund_size_per_head_mm": 50.0
+    },
+    {
+      "year": 2021,
+      "fund_name": "HGGC Fund III",
+      "fund_size_mm": 2000,
+      "investment_team_hc": 37,
+      "fund_size_per_head_mm": 54.1
+    },
+    {
+      "year": 2022,
+      "fund_name": "HGGC Fund III",
+      "fund_size_mm": 2000,
+      "investment_team_hc": 41,
+      "fund_size_per_head_mm": 48.8
+    },
+    {
+      "year": 2023,
+      "fund_name": "HGGC Fund III",
+      "fund_size_mm": 2000,
+      "investment_team_hc": 45,
+      "fund_size_per_head_mm": 44.4
     }
   ],
   "turnover_metrics": [
